@@ -1,0 +1,258 @@
+<html>
+
+<head>
+
+<title> Sprint </title>
+
+<link rel='stylesheet' href='../css/css.css'/>
+<link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+
+<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+
+<script language="JavaScript">
+
+
+
+		function hideshow(container) {
+
+
+			if (container.className== 'hide') {
+				container.className= 'show'; }
+			else {
+				container.className= 'hide'; }
+
+
+			}
+			
+			</script>
+
+</head>
+
+<body>
+
+<a id="top"/>
+
+
+<div id="page">
+
+
+
+<!-- ------------------------------------------------------------------Page Menu------------------------------------------------------------------ -->
+
+
+<div id="eve_logo_menu">
+
+	<a href="../testing_guide/EVE_Testing.html">
+	<img src="../images/eve.jpg" alt="eve online logo" id="eve_logo_smaller"/>
+	</a>
+
+</div>
+
+
+
+<div id="menu">
+	
+	<div id="result"></div>
+	<script src="JS/menuScript.js"></script>
+	<script type="text/javascript">menuFunction('bill_s1_s2');</script>
+	
+</div>
+
+
+
+<!-- ------------------------------------------------------------------Page Menu------------------------------------------------------------------ -->
+<!-- --------------------- Nav Bar ----------------- -->
+
+<div id="result_2">
+<script src="../JS/navbar.js"></script>
+<script type="text/javascript">nav_bar_function('bill_s1_s2');</script>
+</div>
+
+<!-- --------------------- Nav Bar ----------------- -->
+
+
+
+<div id="content">
+
+<!-- ------------------------------------------------------------------Content in here------------------------------------------------------------------ -->
+
+
+<a id="retrospective"/>
+<h4>BILL S1/S2</h4>
+
+<b>Sprint:</b> BILL S1/S2</br>
+<b>Sprint Dates:</b> S1: 14/01/15 - 27/01/15  S2: 28/01/15 - 10/02/15</br>
+<b>Servers:</b>S1/S2: Singularity, Multiplicity, Chaos   </p>
+
+<b>Scrum Master:</b> Stewart Griffin<br>
+<b>Attendees:</b>
+Alyn, Evgeni, Stef, Stewart, Steven, John, Grant, Jesse, Laurie
+</p>
+
+<b>Notes:</b> None
+</p>
+
+<a href="#" onclick="hideshow(external_issues)">
+<div class="expandable_content_header">External Issues</div>
+</a>
+<div id="external_issues" class="show"></p>
+<!-- ---------------------------- External Issues ----------------------------- -->
+
+<b>CCP</b></p>
+
+	<ul>
+		<li>Switching over from Chaos to Sisi midsprint caused problems.
+		<li>Numerous issues on Chaos caused a number of scripts to be blocked till the last few days of the sprint.
+		<li>Dungeons disappeared midway through the second sprint, delaying testing.
+		<li>Multiple periods of downtime, including one that delayed a sprint by a full morning.
+		<li>Some confusion on who is on what team and what role each team performs at CCP.
+		<li>Aptest and Lync accounts continue to stop working spontaneously.
+		<li>Acquiring new Aptest and Lync accounts taking a lengthy time.
+	</ul></p>
+
+<b> Other </b></p>
+
+	<ul>
+		<li>Skype has caused problems since being updated, mostly relating to times taken to load large conversation logs.
+	</ul></p>
+	
+
+<!-- ---------------------------- External Issues ----------------------------- -->
+</div>
+
+<a href="#" onclick="hideshow(good_practices)">
+<div class="expandable_content_header">Good Practices</div>
+</a>
+<div id="good_practices" class="show"></p>
+<!-- ---------------------------- Good Practices ----------------------------- -->
+
+<b>Sprint</b></p>
+
+	<ul>
+		<li>Motivation did not flag with two consecutive sprints.
+		<li>Script were taken off other testers quickly and easily.
+		<li>High levels of defects created.
+		<li>Alyn got a specific reference for how to enter Memory Leak defects.
+		<li>Despite being a man down, sprint was still completed early.
+	</ul></p>
+	
+<b>Communication</b></p>
+
+	<ul>
+		<li>Knowledge sharing and communication have been very strong.
+		<li>Team members were helpful in helping Steve get acclimatized.
+		<li>Speedy responses in script change channel.
+		<li>Good help provided to US English channel.
+		<li>Communication with CCP has been of a high quality.
+	</ul></p>
+
+<b>Other</b></p>
+
+	<ul>
+		<li>Steve did very well getting up to speed quickly.
+		<li>Lead exchange was very good.
+		<li>Day 1000 celebration.
+	</ul></p>
+
+<!-- ---------------------------- Good Practices ----------------------------- -->
+</div>
+
+<a href="#" onclick="hideshow(team_concerns)">
+<div class="expandable_content_header">Internal Issues</div>
+</a>
+<div id="team_concerns" class="show"></p>
+<!-- ---------------------------- Inernal Issues----------------------------- -->
+
+<b> General </b></p>
+
+	<ul>
+		<li>Team is still down a member.
+		<li>Team is often down an additional member while interview are being conducted.
+		<li>Backfill team members taking over slightly slows sprint progress.
+		<li>Testrail is unfamiliar to most members of the team.
+		<li>Factoring script times into KPI results can detract focus from the overall sprint to each testers individual script time.
+		<li>Some confusion was encountered about how to treat blocked tests.
+		<li>Complications relating to holidays due to T&#39;s absence.
+	</ul></p>
+	
+<b>Documentation</b></p>
+
+	<ul>
+		<li>Team needs to use the QA doc, Test Home and other resourced more.
+		<li>Inserting rows in the rep doc must be done correctly.
+		<li>Personal pages in the sprint tracker must not be edited.
+	</ul></p>
+
+
+<!-- ---------------------------- Internal Issues ----------------------------- -->
+</div>
+
+<a href="#" onclick="hideshow(action_points)">
+<div class="expandable_content_header">Action Points</div>
+</a>
+<div id="action_points" class="show"></p>
+<!-- ---------------------------- Action Points ----------------------------- -->
+
+<b> CCP</b></p>
+
+	<ul>
+		<li>Tormod will create a clear list who is on which team and which role each team is currently working on what.
+		<li>Confluence access will be pushed for.
+		<li>Testrail Demo&#39;s during exploratory.
+		<li>Lync and Aptest accounts for Backfill
+	</ul></p>
+
+<b>Sprint</b></p>
+
+	<ul>
+		<li>When taking over another testers script mid sprint, the new tester should be listed as supporting tester.
+		<li>When using aptest, a defect entered against a test step should be entered in the notes as well as the defectID section.
+	</ul></p>
+	
+<b>Documents and Practices</b></p>
+
+	<ul>
+		<li>A shared space will be created for the FW and Outposts trackers for each sprint, to make it easier for testers to take over those scripts if necessary.
+		<li>If preparing the DSR for the day, the reporter should check the personal pages on the tracker to make sure it is correct.
+		<li>If a script has been started by another tester and is being taken over by you, you should be listed as supporting tester.
+		<li>Test Home should be updated
+		<li>The documentation folder should be tidied up.
+		<li>All backfill testers should be made clear on these changes.
+		<li>When experiencing difficulties with Skype, clearing the cache may resolve the issue, though this should only be done when absolutely necessary as keeping a log is important.
+	</ul></p>
+
+
+
+<!-- ---------------------------- Action Points ----------------------------- -->
+</div>
+
+<a href="#" onclick="hideshow(additional_comments)">
+<div class="expandable_content_header">Additional Comments</div>
+</a>
+<div id="additional_comments"class="show"></p>
+<!-- ---------------------------- Additional Comments ----------------------------- -->
+
+No additional comments.
+
+
+
+
+
+<!-- ---------------------------- Additional Comments ----------------------------- -->
+</div>
+<!-- ------------------------------------------------------------------Content in here------------------------------------------------------------------ -->
+
+
+
+
+</div>
+
+
+
+
+
+
+</body>
+
+
+</html>

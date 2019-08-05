@@ -1,0 +1,420 @@
+<html>
+
+<head>
+
+<title> JIRA </title>
+
+<link rel='stylesheet' href='../css/css.css'/>
+<link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+
+<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+
+</head>
+
+<body>
+
+<a id="top"/>
+
+
+<div id="page">
+
+
+
+<!-- ------------------------------------------------------------------Page Menu------------------------------------------------------------------ -->
+
+
+<div id="eve_logo_menu">
+
+	<a href="EVE_Testing.html">
+	<img src="../images/eve.jpg" alt="eve online logo" id="eve_logo_smaller"/>
+	</a>
+
+</div>
+
+
+
+<div id="menu">
+
+	<div id="result"></div>
+	<script src="../JS/menuScript.js"></script>
+	 <script type="text/javascript">menuFunction('jira');</script>
+	 
+</div>
+
+
+
+<!-- ------------------------------------------------------------------Page Menu------------------------------------------------------------------ -->
+
+<!-- --------------------- Nav Bar ----------------- -->
+
+<div id="result_2">
+<script src="../JS/navbar.js"></script>
+<script type="text/javascript">nav_bar_function('jira');</script>
+</div>
+
+<!-- --------------------- Nav Bar ----------------- -->
+
+
+<div id="content">
+
+<!-- ------------------------------------------------------------------Content in here------------------------------------------------------------------ -->
+<a id="jira"/>
+<h4>JIRA</h4>
+JIRA is an issue tracking system developed by Atlassian. It is a popular tool in software development and is used by CCP across all of their projects. Player submitted Bug Reports are also 
+tracked through JIRA.</p>
+
+At first, JIRA can come across as slightly daunting, but the more you use it, the more familiar you'll become with it and the more you'll realise just how powerful a tool it can be when looking for previously reported issues. 
+
+To start you off on your way to JIRA mastery, our kind clients at CCP have organised access for us to <a href="https://university.atlassian.com" target="_blank">Atlassian University</a>. You'll go through these lessons as part of 
+your training and you can always refer back to the courses whenever you need a refresher. </p>
+
+Atlassian also has comprehensive documentation on how to use JIRA - a link can always be found on the test homepage or you can check it out <a href="https://confluence.atlassian.com/display/JIRA/JIRA+Documentation" target="_blank">
+here</a>.
+
+
+<a id="jira_submit"/>
+<h4> Submitting a Defect </h4>
+
+
+When entering a defect to CCP, first click on <b>New Defect </b>on the EVE test launch page. A new window will then open on the 
+<i>Create Issue</i> page of JIRA. If already on JIRA, simply select <i>Create Issue</i> from the toolbar at the top.This will 
+open the Create Issue form in a popup on screen.</p>
+
+<h5>
+<a href="../images/defects/new_defect_1.png" target="_blank">
+<img src="../images/defects/new_defect_1.png" />
+</a></p></h5>
+
+On the submit defect page you will copy and paste all the details from your <a href="writing_reports.html"> Defect Report.</a> Once you have
+filled in all the relevant sections, click <b>Create.</b> </p>
+
+It is important to note here that in general, the <b>project should always be EVE</b> and the issue type should always be 
+<b>Defect</b>. There may be times where this is different but you will be informed if this is the case. If the project does 
+change, then the entry window may look different depending on what information the client requires in the defect report.</p>
+
+It is also important to note that computer information is entered on the <b>More Tab</b> of the "Create Issue" window. 
+<span class="keypoint">On this second tab you also have the option to set the security level to <b> Non Public</b> this 
+setting should be used whenever you are entering <b>an exploit in the game that should be kept private.</b></span></p>
+ </br></p>
+<a href="../images/defects/new_defect_2.png" target="_blank">
+<img src="../images/defects/new_defect_2.png"class="contentimage2" />
+</a></p>
+
+When you are creating your issue you'll want to attach your <b>DxDiag and Logsever File along with any Screenshots or Videos.</b> 
+To do this, click <b>Choose Files</b> next to the Attachments section and then open the relevant files. If you select the wrong 
+file at this stage, you can remove files too.</p>
+
+<a href="../images/defects/new_defect_3.png" target="_blank">
+<img src="../images/defects/new_defect_3.png"class="contentimage" />
+</a></p>
+
+<a id="defect_levels"/>
+<h4>Defect Levels</h4>
+
+We're here to find defects.
+
+<ul>
+	<li>
+	
+	<b>A: </b>
+
+	The defect causes a failure of the complete software system, or a program within the system. (e.g. crashes, whole system failure)
+	</li>
+
+	<li>
+
+	<b>B: </b>
+
+	The defect causes a failure of a subsystem, or causes the system to produce incorrect, incomplete, or inconsistent results or impairs the system functionality. (e.g. nonfunctional UI element, incorrect dogma attribute, performance impact)
+	</li>
+
+	<li>
+
+	<b>C: </b>
+
+	The defect does not cause a failure, and does not interfere in the fluent work of the system and programs; Text issues in instructions, locations or anything that effects the players path or the game func will also be a C. (e.g. Instructional text error, bad container placement in dungeon)
+
+	</li>
+
+	<li>
+
+	<b>D: </b>
+
+	The defect is aesthetic, is an enhancement or is a result of non-conformance to a standard. Text issues about readability, punctuation, flavour text or anything else that is purely aesthetic. (e.g. Missing space, Inconsistent Capitalisation)
+	</li>
+
+
+</ul>
+
+</p>
+
+<a id="jira_categories"/>
+<h4> Defect Categories </h4>
+
+When creating your defect, you will place it under a specific category using the template below: </p>
+
+<ul>
+<li> <b>Gameplay</b></br>
+Gameplay mechanics: Anything to do with the logic behind the game design and the way features are intended to work.</p>
+<i>Examples: Ship and module attributes, Scanner, Science and Industry</i></p>
+
+<li><b>PvE</b></br>
+Player versus Environment issues relating to the content of the game.</p>
+<i>Examples: Agents/NPCs, Missions, Incursions, LP Store</i></p>
+
+<li><b>UI</b></br>
+User Interface mechanics: Issues relating to the functionality of the UI (Drag & drop, sort order, alignment, compact mode, UI scaling, window behaviour).</p>
+<i>Examples: Neocom, Overview, Station services, Brackets</i></p>
+
+<li><b>Graphics</b></br>
+Issues relating to all visual aspects of the game except UI (Textures, Lighting, Effects, Model geometry).</p>
+<i>Examples: Station hangars, CQ, Character Creator, Ship Visuals</i></p>
+
+<li><b>Technical</b></br>
+Issues relating to the game client not functioning.</p>
+<i>Examples: EVE Voice, Client cache, Exceptions, Crashes</i></p>
+
+<li><b>Localization</b></br>
+Incorrect or missing translation to any of the three supported languages but not spelling mistakes in English.</p>
+<i>Examples: Translation errors, missing translations</i></p>
+
+<li><b>Audio</b></br>
+Issues relating to updating and validating the EVE game client.</p>
+<i>Examples: Environment music, sound effects, UI context audio feedback</i></p>
+
+<li><b>Launcher</b></br>
+Issues relating to updating and validating the EVE game client.</p>
+<i>Examples: EVE client fails to update, launch, is corrupted, etc.</i></p>
+
+<li><b>Forum/Website</b></br>
+All issues relating to the forums or any EVE website.</p>
+<i>Examples: EVE-Gate, API</i>
+
+</ul>
+
+<a id="jira_assigning"/>
+<h4> Assigning Defects </h4>
+
+You will have the option to assign it. This enables CCP to deal with issues 
+in a more timely fashion. The different assignments are as follows: </p>
+
+<ul>
+
+<li><b>Game Design - For all issues regarding the design of the game – ship/module attributes, texts, anything with agents, dungeons, missions, epic arcs, or the tutorial.</b></li>
+<ul>
+<li> All module, item, ship and mission descriptions
+<li> All module, item, ship and structure statistics (attributes)
+<li>  Mission functionality
+<li>  Gameplay balancing
+<li>  Dungeon functionality (all dungeons)
+<li>  Dungeon aesthetics and layout (all dungeons)
+<li>  Dungeon distribution
+<li>  Reward balancing (mission and NPC loot)
+<li>  Market contents
+<li>  Tutorial functionality
+<li>  All text
+</ul>
+<li><b>Software</b> - For all issues related to code and programming (the UI is part of the code). </li>
+<li><b>Graphics & Audio</b> - For all issues regarding the models, textures, animations, graphical effects and sound of the art assets e.g. Shaders, Collisions, Miniballs, Sound. </li>
+<li><b>Localization</b> - Defects in the Localization category - not English. </li>
+<li><b>QA</b> - For issues reported by bug hunters that need further reproduction or more info. Generally, we never use this bucket.</li>
+
+
+</ul>
+
+Always ensure that you assign your defect to one of these assignees. As you can see, they are pretty self-explanatory but if you have any queries, or if your issue falls into a grey area - just ask 
+the team and we'll figure something out. </p>
+
+<a id="jira_labels" />
+<h4>Labels </h4>
+
+A useful organisational tool in JIRA is the labels feature. At the moment, we only require you to add the label <b>PTW</b> to 
+your defect report. Remember to add it to all defects and ensure that it is in all caps.</p>
+
+<span class="keypoint">Don't forget - all labels are case-sensitive.</span>
+
+<a id="jira_search"/>
+
+<h4> Searching for Defects </h4>
+
+Searching for defects is a vital skill, it's one that enables us to discover wheter defects are already reported - so that we don't waste time 
+covering old ground. Luckily we have multiple tools at our disposal to find defects in JIRA. </p>
+
+Your first port of call should be our launch page, the search box on the launch page is the very same "Quick Search" you find 
+in JIRA. From here you can search for text in a defect report - or you can enter a defect ID to go straight to a report. </p>
+
+<a href="../images/defects/search_box.png" target="_blank">
+<img src="../images/defects/search_box.png" class="contentimage" />
+</a></p>
+
+After performing a quick search your browser will detail your search results. You will see that the results page has 
+translated your original search into a SQL query - and you'll now have access to the <a href="https://jira.ccpgames.com/secure/IssueNavigator.jspa?createNew=true&mode=show" target="_blank">Advanced Search</a>. 
+See quick search as a 
+"launching point" for finding defects. once you're on the advanced search page you can expand the SQL query to narrow down 
+the results. </p>
+
+<h5>SQL Queries</h5>
+
+
+Jira is an immensely powerful tool when it comes to search. To explain all that is possible to do with SQL queries would take a 
+great deal of time and compehensive documentaion. Thankfully, that documentation exists and can be found 
+<a href="https://confluence.atlassian.com/display/JIRA060/Advanced+Searching target="_blank">on the Atlassian website</a>. </p>
+
+In general though, if you have a basic understanding of queries in programs such as Excel, you'll be able to wrap your 
+head around SQL Queries. In the example below you'll see a query that was constructed to find all of our previous EVE functionality 
+defects - entered before we transferred to JIRA.</p>
+
+<b>(description ~ PTW OR description ~ e4e) AND summary !~ JA </b> </p>
+
+Here the query is initially looking for any defects where the <b>description</b> contains the phrases - PTW and e4e 
+<span class="keypoint">[(description ~ PTW OR description ~ e4e)]</span>. If we were 
+to run the query just based on these parameters, we would get over 4,000 results because it will also return to us defects that we 
+entered for Japanese localisation. As such, we then add the AND condition that searches the <b>summary</b> and excludes any 
+results that contain JA - <span class="keypoint">[AND summary !~ JA]</span>. </p>
+
+As you can see, the queries are able to search various fields and depending on the 
+<a href="https://confluence.atlassian.com/display/JIRA060/Advanced+Searching#AdvancedSearching-operatoroperatorsOperatorsReference" target="_blank">
+operators</a> and 
+<a href="https://confluence.atlassian.com/display/JIRA060/Advanced+Searching#AdvancedSearching-ListofKeywords" target="_blank">
+keywords</a> you use, you can narrow down your searching parameters. </p>
+
+The operators and keywords used in the example are:</p>
+
+<ul>
+<li> CONTAINS: ~ </li>
+<li> DOES NOT CONTAN: !~ </li>
+<li>AND</li>
+<li>OR </li>
+
+</ul>
+
+That squiggly line is a very useful operator for general searches and is called the <b>Tilde</b> - just incase you were wondering. 
+Other operators include =, >, < and IS. Keywords include AND, OR, NOT.</p>
+
+This is just a brief insight into SQL queries, as previously mentioned, the <a href="https://confluence.atlassian.com/display/JIRA060/Advanced+Searching target="_blank">Atlassian website</a> 
+contains a wealth of information relating to SQL queries so you'll be finding defect reports like a pro in no time.
+
+
+
+</p>
+<a href="../images/defects/search_result.png" target="_blank">
+<img src="../images/defects/search_result.png" class="contentimage"/>
+</a></p>
+
+
+
+
+<a id="jira_filter"/>
+<h4> Useful Filters </h4>
+
+Below you will find a list of filters that should should save in JIRA for quick reference. The first two are the most useful when trying to find out whether or not a defect 
+you have found has already been reported - first by checking if it is open, and secondly by checking if it is "by-design" or possibly recently resolved and closed. </p></br>
+
+<ul>
+<li><span class="red">Default Search - Open Defects</span> </br>
+project = eve AND type = defect AND status != closed AND text ~ "Enter Text Here" ORDER BY created </p>
+
+This default search will ensure that you are always looking for <b>open issues</b> in the EVE project, it is a great starting point for searching the database for known and 
+current issues. </p>
+
+<li><span class="red">Default Search - All Issues</span> </br>
+project = eve AND type = defect AND text ~ "Enter Text Here" ORDER BY created </p>
+
+This filter is similar to the one above but will show you <b>all issues</b>. This is especially useful when searching for defects that have been recently closed or marked as "By Design" in the past.</p>
+
+<li><b>Defects Assigned to Me [You] </b></br> 
+assignee = currentUser() AND status != Closed </p>
+
+In general, you won't have defects assigned to you. But in the rare cases that a defect gets reassigned to you by a dev (for whatever reason) or when you're looking at 
+bug reports and have assigned one to yourself for investigation purposes - you can easily find them here. </p>
+
+<li><b>Defects Entered in the Last 24hrs </b></br>
+created >= -1d AND type = Defect AND project = EVE </p>
+
+Does exactly what it says on the tin. This is a great quick referance tool to see what areas are causing issues, and also for when you're about to put in a new defect - 
+just incase someone over at CCP has put in the defect you were about to.</p>
+
+<li><b>Bug Reports Open </b></br>
+project = EBR AND resolution = Unresolved AND status = Open AND (labels not in (Launcher, SupportTicket, "Forum/Website") OR labels is EMPTY) </p>
+
+These are all the bug reports...that are open and need some care. Minus ones that have already been marked as Launcher, SupportTicket or Forum/Website - these will generally 
+be worked on by CCP.</p>
+
+<li><b>Bug Reports Open Last 24hrs </b></br>
+created >= -1d AND project = EBR AND status = open AND (labels not in (Launcher, SupportTicket, "Forum/Website") OR labels is EMPTY) ORDER BY created </p>
+
+These are the bug reports entered over the past 24hrs - with the same label filtering system as above.</p>
+
+<li><b>All PTW Functionality Defects </b></br>
+(description ~ PTW OR description ~ e4e OR labels = PTW) AND summary !~ JA AND project = EVE ORDER BY created DESC </p>
+
+All of the defects across the whole of time. Excluding any Japanese defects from our localization times.</p>
+
+<li><b>All PTW Unresolved Defects </b></br>
+(description ~ PTW OR description ~ e4e OR description ~ E4E) AND summary !~ JA AND resolution = Unresolved AND project = EVE ORDER BY created DESC </p>
+
+All of our defects that are currently open. </p>
+
+<li><b>Defects Reported by Me </b></br>
+reporter = ptw_[Name] OR reporter = e4e_[Name] AND project = EVE ORDER BY updatedDate </p>
+
+Your own personal list of EVE defects. You may, over time, enter defects into different projects so you may want to adjust this filter accordingly when such a situation 
+arises. </p>
+
+</ul> </p>
+
+
+<a id="jira_shortcuts"/>
+<h4> Keyboard Shortcuts</h4>
+
+JIRA has a myriad of keyboard shortcuts in order to help you navigate through issues without having to use a mouse. </p>
+
+<a href="../images/jira/jira_shortcuts.png" target="_blank">
+<img src="../images/jira/jira_shortcuts.png"class="contentimage" />
+</a></p>
+
+<a id="jira_bullets"/>
+<h4>Jira Formatting</h4>
+<h5>Bullet Points</h5>
+
+You can easily make a <b>bullet point list</b> in Jira, by using a dash [ <b>-</b> ]. Jira will then automatically convert this into a bullet point. </p>
+
+For Example: </p>
+This has been reproduced with the following stations: </p>
+- Gallente Military Station </br>
+- Minmatar Research Station </p>
+
+You can also create bullet points using the asterix [ <b>*</b> ] - with double asterix' used to indent [ <b>**</b> ] bullet points.</p>
+
+<a href="../images/jira/jira_bullets.png" target="_blank">
+<img src="../images/jira/jira_bullets.png" />
+</a></p>
+
+<h5>Formatting Exception Boxes</h5>
+
+You can and should format exception that go into Jira into a scrollbox for ease of reading as many exception can be extremely lengthy. To do this simple use the following formatting to create the box below: </p>
+
+{code:title=<i>Enter a title here</i>:}</p>
+
+<i>Enter your exception here</i> </p>
+
+{code}</p>
+
+<a href="../images/jira/jira_box.png" target="_blank">
+<img src="../images/jira/jira_box.png" class="contentimage" />
+</a></p>
+
+<!-- ------------------------------------------------------------------Content in here------------------------------------------------------------------ -->
+
+
+</div>
+
+
+
+
+
+
+</body>
+
+
+</html>

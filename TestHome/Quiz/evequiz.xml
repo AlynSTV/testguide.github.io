@@ -1,0 +1,242 @@
+﻿<trivia>
+	
+
+<item category="Lore">
+
+<question>Which corporation roles are required to create or grant Corp Medals?</question>
+		
+<answers>
+			
+<answer>The CEO, Director and Personnel Manager</answer>
+			
+<answer>Only the CEO and Director</answer>
+			
+<answer>Only the CEO.</answer>
+			
+<answer>The CEO, Director and Diplomat</answer>
+		
+</answers>
+		
+<hint>Only three roles can do this.</hint>
+		
+<fact>Only the CEO, Director and Personnel Manager have the ability to both create and grant medals. However, all corporation members can view them. </fact>
+	
+</item>
+	
+	
+
+<item category="Lore">
+		
+<question>What percentage of shares does a corp member require to be able to propose a vote to run for CEO? </question>
+		
+<answers>
+			
+<answer>5%</answer>
+			
+<answer>10%</answer>
+			
+<answer>50%</answer>
+			
+<answer>25%</answer>
+		
+</answers>
+		
+<hint>It is less than 50.</hint>
+		
+<fact>•	Only shareholders who are corporation members can propose a vote to run for CEO. They also need to hold at least 5% of all corporation shares and are required to have skills that support the current amount of corporation members.</fact>
+	
+</item>
+	
+
+
+<item category="Lore">
+		
+<question>Which type of Hangar Access is required to access Hangars at a starbase?</question>
+		
+<answers>
+			
+<answer>Hangar Access (Other)</answer>
+			
+<answer>Hangar Access (Based at)</answer>
+			
+<answer>Hangar Access (Headquarters)</answer>
+			
+<answer>Hangar Access (Starbase)</answer>
+		
+</answers>
+		
+<hint>Hangar Access (Starbase) isn't a thing.</hint>
+		
+<fact>Hangar Access (Other) allows access to selected hangars in all offices that do not fall under either Based at or HQ, this effectively covers anything In Space, including Starbases.</fact>
+	
+</item>
+	
+
+
+<item category="Lore">
+		
+<question>What is the sole purpose of the Container Access role?</question>
+		
+<answers>
+			
+<answer>Allows members to remove a container from a Hangar</answer>
+			
+<answer>Allows members to View the contents of the container</answer>
+			
+<answer>Grants the ability to do place a container in another container </answer>
+			
+<answer>Grants the ability to open containers in your own Hangar</answer>
+		
+</answers>
+		
+<hint>Involves moving a container ...</hint>
+		
+<fact>The primary purpose of the role is to provide the user with the ability to remove containers from any hangars they have access to. A user attempting to do so without this role will receive an error message. </fact>
+	
+</item>
+	
+
+
+<item category="Lore">
+		
+<question>Which ability does the Starbase Defense Operator role not provide?</question>
+		
+<answers>
+			
+<answer>The ability to turn off a Starbase forcefield</answer>
+			
+<answer>The ability to operate Starbase defences manually</answer>
+			
+<answer>The ability to load ammo to Starbase defences</answer>
+			
+<answer>The ability to control POS guns </answer>
+		
+</answers>
+		
+<hint>Micheal Buble</hint>
+		
+<fact>You can't turn a starbase forcefield off. Ever. Because. IKR, LAME!</fact>
+	
+</item>
+	
+
+
+<item category="Lore">
+		
+<question>Which roles are required to enlist a corporation into Factional Warfare?</question>
+		
+<answers>
+			
+<answer>Only CEO or Director</answer>
+			
+<answer>CEO, Director or Diplomat</answer>
+			
+<answer>CEO, Director or Security Officer</answer>
+			
+<answer>CEO, Director, Security Officer or Diplomat</answer>
+		
+</answers>
+		
+<hint>The number of roles is below 4.</hint>
+		
+<fact>The CEO or Director role is required to enlist a corporation into Factional Warfare, and the CEO/Director of the executive corporation is required to enlist an alliance.</fact>
+	
+</item>
+	
+
+
+
+<item category="Lore">
+		
+<question>Which roles can insure corporation ships?</question>
+		
+<answers>
+			
+<answer>CEO, Director, Accountant or Junior Accountant</answer>
+			
+<answer>CEO, Director or Junior Accountant</answer>
+			
+<answer>CEO, Director or Accountant</answer>
+			
+<answer>Only the Accountant or Junior Accountant</answer>
+		
+</answers>
+		
+<hint>Accountants can.</hint>
+		
+<fact>The CEO, Director, Accountant or Junior Accountant can all insure corp ships, even without corp wallet access.</fact>
+	
+</item>
+	
+
+
+<item category="Lore">
+		
+<question>What is a Corporate Stasis Period?</question>
+		
+<answers>
+			
+<answer>The 24 hour period where a member cannot be expelled</answer>
+			
+<answer>The 24 hour period before a corp can enter Factional Warfare</answer>
+			
+<answer>A unique module used in Fleet fights that webs the enemy fleet</answer>
+			
+<answer>A 24 hour period that New members cannot be given roles</answer>
+		
+</answers>
+		
+<hint>24 Hours</hint>
+		
+<fact>A Character automatically enters a 24 hour Corporate Stasis Period as soon as all his Corporate Roles are removed and can be expelled only after it has finished. </fact>
+	
+</item>
+	
+
+<item category="Lore">
+		
+<question>When are NPC standings toward Corporations calculated?</question>
+		
+<answers>
+			
+<answer>Over a downtime</answer>
+			
+<answer>Instantly</answer>
+			
+<answer>New standings use a 24 hour timer</answer>
+			
+<answer>When at least 5 members have had a standings change with said NPC</answer>
+		
+</answers>
+		
+<hint>It's not Instantly</hint>
+		
+<fact>Currently the standings averages are calculated during downtime by taking down the server and running the DT job.</fact>
+	
+</item>
+	
+
+<item category="Lore">
+		
+<question>Which roles are REQUIRED for corp members to aggress one other in High-Sec space?</question>
+		
+<answers>
+			
+<answer>No role is required</answer>
+			
+<answer>CEO</answer>
+			
+<answer>CEO or Director</answer>
+			
+<answer>CEO, Director or Diplomat</answer>
+		
+</answers>
+		
+<hint>The diplomat role is not required</hint>
+		
+<fact>There are no role restrictions for this topic. Any two members of the same corporation are legally allowed by CONCORD to aggress one another in high security space without resulting in any form of penalty.</fact>
+	
+</item>
+	
+
+</trivia>

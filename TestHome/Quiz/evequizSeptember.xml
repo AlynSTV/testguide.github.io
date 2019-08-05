@@ -1,0 +1,124 @@
+﻿<trivia>				
+	<item category="QA">			
+		<question>	Where can you successfully launch an Ihub?	</question>
+	<answers>			
+		<answer>	Only in null-sec systems that don't belong to NPC Corps	</answer>
+		<answer>	Any null-sec system 	</answer>
+		<answer>	Null-sec and Wormhole systems </answer>
+		<answer>	Any Low security system and lower	</answer>
+	</answers>			
+		<hint>	Null	</hint>
+		<fact>	You can only succesfully launch Ihubs in systems that are not owned by NPC corporations/factions	</fact>
+	</item>			
+				
+	<item category="QA">			
+		<question>	Alliance A has 3 systems. What happens when it loses its Capital system? 	</question>
+	<answers>			
+		<answer>	Neither of the 2 remaining will be set as the capital. 	</answer>
+		<answer>	The longest standing system will automatically become new cap.	</answer>
+		<answer>	All 3 systems are lost.	</answer>
+		<answer>	The Alliance is disbanded.	</answer>
+	</answers>			
+		<hint>	May or may not transfer. </hint>
+		<fact>	No capital system should be automatically set once an alliance loses their capital system if they have more than one claimed system at the time.	</fact>
+	</item>			
+				
+	<item category="QA">			
+		<question>	If an Alliance has 2 systems and loses their capital, what happens?	</question>
+	<answers>			
+		<answer>	The single remaining system will automatically become the capital.	</answer>
+		<answer>	Both systems are lost	</answer>
+		<answer>	The single remaining system will need to manually be changed.	</answer>
+		<answer>	The Alliance loses all assets.	</answer>
+	</answers>			
+		<hint>	Is it auto or manual?	</hint>
+		<fact>	When Sovereignty in the capital system is lost, the single remaining System should automatically become the alliance capital.	</fact>
+	</item>			
+				
+	<item category="QA">
+	
+<question> What is the default defensive multiplier for a Capital system? </question>	
+<answers>		
+<answer> 3.0x </answer>		
+<answer> 5.5x </answer>		
+<answer> 5.0x </answer>			
+<answer> 2.5x </answer>		
+</answers>	
+<hint> x.0 </hint>		
+<fact> The default multiplier is x 3.0. </fact>
+</item>
+				
+	<item category="QA">
+		
+<question> What does ADM stand for? </question>	
+<answers>			
+<answer> Activity Defense Multiplier </answer>			
+<answer> Active Damage Multiplier </answer>			
+<answer> Active Domain Multiplier </answer>			
+<answer> Activity Dominion Multiplier </answer>		
+</answers>		
+<hint> Activity.... </hint>		
+<fact> ADM = Activity Defense Multiplier </fact>
+</item>
+				
+	<item category="QA">			
+		<question> What is the base capture time for a command node?</question>
+	<answers>			
+		<answer>	9m 55s	</answer>
+		<answer>	5m 30s	</answer>
+		<answer>	10m	</answer>
+		<answer>	30m 	</answer>
+	</answers>			
+		<hint>	Less than 10	</hint>
+		<fact> The base capture time is 9m 55s. </fact>
+	</item>			
+				
+	<item category="QA">			
+		<question> What happens to a currently owned station after a capture campaign?	</question>
+	<answers>			
+		<answer> The station will enter freeport mode after reinforcement.	</answer>
+		<answer> The attacking alliance will gain control after reinforcement.	</answer>
+		<answer> Only a reinforcement will take place.	</answer>
+		<answer> The station will be destroyed.	</answer>
+	</answers>			
+		<hint>	"after a reinforcement...."	</hint>
+		<fact>	When a defender loses a capture campaign, the station will enter freeport mode after reinforcement.	</fact>
+	</item>			
+				
+	<item category="QA">			
+		<question>	Which type of capture campaign starts on a station in freeport?	</question>
+	<answers>			
+		<answer>	A Free for all capture campaign	</answer>
+		<answer>	An Attacker/Defender campaign	</answer>
+		<answer>		</answer>
+		<answer>		</answer>
+	</answers>			
+		<hint>	Trolol no hints for 50/50	</hint>
+		<fact>	A Free for all capture campaign will start. The person with the highest captured command nodes (reaches 100%) will gain control of the station.	</fact>
+	</item>			
+				
+	<item category="QA">
+		<question> Which of the following can activate entosis on structures?  </question>		
+<answers>	
+<answer> A character in a player alliance.  </answer>	
+<answer> A character in Factional Warfare Militia. </answer>
+<answer> A character in a corp not in an alliance. </answer>
+<answer> Character in a Rookie corp </answer>
+</answers>
+<hint> Alliance </hint>
+<fact> Only characters in Player alliances can activate entosis on structures to start capture campaigns. </fact>
+</item>		
+				
+<item category="QA">			
+		<question>	Which of the following can activate entosis on station services?	</question>
+	<answers>			
+		<answer>	All of them.	</answer>
+		<answer>	A character in a player alliance.	</answer>
+		<answer>	A character in Factional Warfare Militia.	</answer>
+		<answer>	A character in a corp not in an alliance.	</answer>
+	</answers>			
+		<hint>	Not the same as structures.	</hint>
+		<fact>	Anyone with an entosis link fitted can activate the module on a station service.	</fact>
+	</item>	
+	
+</trivia>	

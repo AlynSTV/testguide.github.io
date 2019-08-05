@@ -1,0 +1,274 @@
+<html>
+
+<head>
+
+<title> DOLLY S1</title>
+
+<link rel='stylesheet' href='../css/css.css'/>
+<link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+
+<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+
+<script language="JavaScript">
+
+
+
+		function hideshow(container) {
+
+
+			if (container.className== 'hide') {
+				container.className= 'show'; }
+			else {
+				container.className= 'hide'; }
+
+
+			}
+			
+			</script>
+
+</head>
+
+<body>
+
+<a id="top"/>
+
+
+<div id="page">
+
+
+
+<!-- ------------------------------------------------------------------Page Menu------------------------------------------------------------------ -->
+
+
+<div id="eve_logo_menu">
+
+	<a href="../testing_guide/EVE_Testing.html">
+	<img src="../images/eve.jpg" alt="eve online logo" id="eve_logo_smaller"/>
+	</a>
+
+</div>
+
+
+
+<div id="menu">
+	
+	<div id="result"></div>
+	<script src="JS/menuScript.js"></script>
+	<script type="text/javascript">menuFunction('dolly_s1');</script>
+	
+</div>
+
+
+
+<!-- ------------------------------------------------------------------Page Menu------------------------------------------------------------------ -->
+<!-- --------------------- Nav Bar ----------------- -->
+
+<div id="result_2">
+<script src="../JS/navbar.js"></script>
+<script type="text/javascript">nav_bar_function('dolly_s1');</script>
+</div>
+
+<!-- --------------------- Nav Bar ----------------- -->
+
+
+<div id="content">
+
+<!-- ------------------------------------------------------------------Content in here------------------------------------------------------------------ -->
+
+
+<a id="retrospective"/>
+<h4>DOLLY S1</h4>
+
+<b>Sprint:</b> DOLLY S1</br>
+<b>Sprint Dates:</b> 12/05/2014 - 27/05/2014</br>
+<b>Servers:</b> Singularity, Multiplicity</p>
+
+<b>Scrum Master:</b> Grant McKenna</br>
+<b>Attendees:</b>
+Alyn, Drew, Grant, Hannah, Jesse, John, Laurie, Roman, Stef, Tormod.
+</p>
+
+<b>Notes:</b> 2 Minitasks were given during this sprint - Advanced Audio Settings checks and checks on the removal of Scatter Containers.
+</p>
+
+<a href="#" onclick="hideshow(external_issues)">
+<div class="expandable_content_header">External Issues</div>
+</a>
+<div id="external_issues" class="show"></p>
+<!-- ---------------------------- External Issues ----------------------------- -->
+
+<b>
+CCP
+</b></p>
+
+<ul>
+<li>We had two mini tasks during the sprint which took time from 3 testers. 
+<li>The sprint was started a day later than originally intended.
+<li>Time differences between us and CCP often means there is nobody that we can contact until 11pm or later. 
+</ul>
+
+</p><b>
+PTW
+</b></p>
+<ul>
+<li>An interview took up some time for a tester.
+<li>The Bank Holiday took time away from the sprint. 
+</ul>
+
+
+<!-- ---------------------------- External Issues ----------------------------- -->
+</div>
+
+<a href="#" onclick="hideshow(good_practices)">
+<div class="expandable_content_header">Good Practices</div>
+</a>
+<div id="good_practices" class="show"></p>
+<!-- ---------------------------- Good Practices ----------------------------- -->
+<b>
+Sprint 
+</b></p>
+<ul>
+<li>We have entered a high number of defects this sprint.
+<li>A good number of our defects entered have been Majors and Criticals. 
+<li>Drew managed to run five mobile deployable scripts at once saving hours of testing time. 
+</ul> 
+ 
+</p><b>
+Knowledge sharing
+</b></p>
+<ul>
+<li>The Q&A document has been improved. 
+<li>There has been better use of the Q&A doc to record useful information given by the client. 
+<li>More testers are making use of the Outlook calendar to track waits. 
+<li>As a whole we have had good communication within the team and with the client.
+</ul>
+
+</p><b>
+Scrum 
+</b></p>
+<ul>
+<li>There has been an increased use of the scrum master document since it has been updated.
+<li>As a whole the team is now much more aware of downtimes and waits. 
+</ul>
+
+
+
+
+
+<!-- ---------------------------- Good Practices ----------------------------- -->
+</div>
+
+<a href="#" onclick="hideshow(team_concerns)">
+<div class="expandable_content_header">Team Concerns</div>
+</a>
+<div id="team_concerns" class="show"></p>
+<!-- ---------------------------- Team Concerns ----------------------------- -->
+
+<b>
+Scripts
+</b></p>
+<ul>
+<li>The mobile deployable scripts have testers repeating too many steps.
+<li>The NEX store scripts are now outdated containing incorrect functionality. 
+<li>The NPC behaviour scripts contain incorrect logic and need a re-write. 
+<li>Most CP scripts contain a lot of repeated steps. 
+<li>In the CP scripts the Amarr faction is always tested first and therefore receives the most coverage. 
+ </ul>
+ 
+ </p><b>
+Testing Knowledge 
+</b></p>
+<ul>
+<li>There is currently no guide for defecting crashes. 
+<li>We have no information on how to mark something as a potential exploit.
+ </ul>
+ </p><b>
+Testing tools
+</b></p>
+<ul>
+<li>Some structures that require long waits have no QA alternative. 
+ </ul>
+ 
+ </p><b>
+CCP
+</b></p>
+<ul>
+<li>We are not meeting sprint deadlines set by Dave. 
+<li>We still have no access to confluence. 
+<li>Script priorities could be changed so we do not have 48hr waits that are priority 2s. 
+</ul>
+
+
+<!-- ---------------------------- Team Concerns ----------------------------- -->
+</div>
+
+<a href="#" onclick="hideshow(action_points)">
+<div class="expandable_content_header">Action Points</div>
+</a>
+<div id="action_points" class="show"> </p>
+<!-- ---------------------------- Action Points ----------------------------- -->
+ <b>
+Scripts
+</b></p><ul>
+<li>We will be taking notes of the test cases that need to be changed for the NEX store scripts. 
+<li>We will make CCP aware that the NPC behavior scripts are out of date. Additionally Grant will create script tips and re-write part of the script with knowledge given by Gregor Chalmers. 
+<li>Drew will be making some changes to the mobile depot script and write some script tips. Additionally a note will be added in the sprint tracker informing testers that they should run the wait during the start of the sprint. 
+<li>Script tips will be added for the CP scripts. Additionally a note will be added to the sprint tracker stating which faction was last tested fully. 
+<li>Stef will be adding script tips for all the scripts that contain waits. 
+ 
+</ul>  </p><b>
+Testing Knowledge
+</b></p>
+<ul>
+<li>A guide for reporting crashes and exploits will be added to the EVE testing page. 
+<li>A Sync-up and post mortem page will be added to the website that logs the information we have gathered.
+</ul>
+</p><b>
+Testing Tools 
+
+</b></p><ul>
+<li>We will be making a request to CCP to get a QA mobile depot to save time when trying to reproduce a defect. 
+ 
+ </ul> </p><b>
+  Sprint Efficiency 
+</b></p><ul>
+<li>Tormod will be analyzing what scripts can be retired. He will also be asking testers where they feel they can save time on scripts. 
+</ul>
+
+
+
+
+
+
+<!-- ---------------------------- Action Points ----------------------------- -->
+</div>
+
+<a href="#" onclick="hideshow(additional_comments)">
+<div class="expandable_content_header">Additional Comments</div>
+</a>
+<div id="additional_comments"class="show"> </p>
+<!-- ---------------------------- Additional Comments ----------------------------- -->
+No Additional Comments.
+
+
+
+
+
+<!-- ---------------------------- Additional Comments ----------------------------- -->
+</div>
+<!-- ------------------------------------------------------------------Content in here------------------------------------------------------------------ -->
+
+
+
+
+</div>
+
+
+
+
+
+
+</body>
+
+
+</html>

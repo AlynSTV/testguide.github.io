@@ -1,0 +1,137 @@
+﻿<trivia>				
+	<item category="QA">			
+		<question>	In the new Corporation Role Management UI, which [symbol] represents giving a Role?	</question>
+	<answers>			
+		<answer>	[ \ ]	</answer>
+		<answer>	[ X ]	</answer>
+		<answer>	[   ] </answer>
+		<answer>	[ R ]	</answer>
+	</answers>			
+		<hint>	It's not empty.	</hint>
+		<fact>	The tristate checkbox represents roles the following way:
+		[  ] Unchecked for no role
+		[/] Half checked for Role
+		[X] Fully checked for Grantable role	</fact>
+	</item>			
+				
+	<item category="QA">			
+		<question>	How many Turret slots were removed from the Confessor and Svipul T3 Destroyers in Mosaic?	</question>
+	<answers>			
+		<answer>	2	</answer>
+		<answer>	3	</answer>
+		<answer>	1	</answer>
+		<answer>	4	</answer>
+	</answers>			
+		<hint>	The answer is not 3. </hint>
+		<fact>	After some balancing, 2 slots were removed.	</fact>
+	</item>			
+				
+	<item category="QA">			
+		<question>	When writing a defect report, which of the following is the "Start Build" number if the defect repros on all servers?	</question>
+	<answers>			
+		<answer>	Singularity, EVE-TRANQUILITY, 878000	</answer>
+		<answer>	Multiplicity, EVE-TRANQUILITY, 882000	</answer>
+		<answer>	Chaos, EVE-MAINLINE, 860800	</answer>
+		<answer>	Singularity, EVE-2015-DANNY, 874000	</answer>
+	</answers>			
+		<hint>	EVE-TRANQUILITY	</hint>
+		<fact>	The Tranquility branch will always act as the Start Build, however, there are occasions when Singularity can be behind the Tranquility Server (typically after a release).	</fact>
+	</item>			
+				
+	<item category="QA">
+		
+<question>What is meant by the term LOD?</question>	
+<answers>		
+<answer>Level of Detail</answer>		
+<answer>Level Order Dimenions</answer>		
+<answer>Layer Order Distribution</answer>			
+<answer>Layer Outcome of Dissolution</answer>		
+</answers>	
+<hint>Level....</hint>		
+<fact>Level-of-Detail switching is the practice of displaying different geometric representations of the same object at different times, less detailed representation when the object is farther away; more detailed when it is closer to the observer.</fact>
+</item>
+				
+	<item category="QA">
+		
+<question>What is meant by the term Z-Fighting?</question>	
+<answers>			
+<answer>Two textures on the same zlayer, resulting in flickering gfx issues </answer>			
+<answer>When Objects are too far or too close to the users perception.</answer>			
+<answer>When the X and Y axis meet to determine an assets co-ordinates.</answer>			
+<answer>When the Goku and Vegeta are present on screen.</answer>		
+</answers>		
+<hint>Noticeable graphical issue...</hint>		
+<fact>Z-fighting is a phenomenon in 3D rendering that occurs when two or more primitives have similar values in the z-buffer. It is particularly prevalent with coplanar polygons, where two faces occupy essentially the same space, with neither in front.</fact>
+</item>
+				
+	<item category="Facts">			
+		<question>	What is jump fatigue?	</question>
+	<answers>			
+		<answer>	A restrictive time value accrued from using Jump Drive/Bridge.	</answer>
+		<answer>	A new restriction that limits Stargate jumps for titans.	</answer>
+		<answer>	When you are le tired after listening to House of Pain's classic.	</answer>
+		<answer>	The reason why supercarriers and titans can't jump to High-sec	</answer>
+	</answers>			
+		<hint>	Restrictive	</hint>
+		<fact> After each jump, pilots gain a jump cooldown timer which prevents them using a jump drive/jump bridge/jump portal again until this cooldown has expired.
+The length of the timer is dependent on the amount of fatigue present on the pilot when the jump is executed.</fact>
+	</item>			
+				
+	<item category="Facts">			
+		<question> What is Physically Based Rendering techniques (PBR)?	</question>
+	<answers>			
+		<answer>	Closely model how real light bounces off different surfaces.</answer>
+		<answer>	The effect of obstructing light	</answer>
+		<answer>	Objects out of focus when too far in front of camera	</answer>
+		<answer>	Rendering artistic style, intended to look like a painting or drawing	</answer>
+	</answers>			
+		<hint>	LIGHT	</hint>
+		<fact>	Physically Based Rendering” is a term for cutting edge rendering methods that closely model how real light bounces off different surfaces. This has been added for Ship rendering and lighting in Rhea.	</fact>
+	</item>			
+				
+	<item category="QA">			
+		<question>	Which of the following ships can fit a Jump Portal Generator?	</question>
+	<answers>			
+		<answer>	Titans	</answer>
+		<answer>	Roquals	</answer>
+		<answer>	Super Carriers	</answer>
+		<answer>	All ships mentioned are able to fit a Jump Portal Generator	</answer>
+	</answers>			
+		<hint>		</hint>
+		<fact>		</fact>
+	</item>			
+				
+	<item category="Lore">
+		
+<question>Which type of Hangar Access is required to access Hangars at a starbase?</question>
+		
+<answers>
+			
+<answer>Hangar Access (Other)</answer>
+			
+<answer>Hangar Access (Based at)</answer>
+			
+<answer>Hangar Access (Headquarters)</answer>
+			
+<answer>Hangar Access (Starbase)</answer>
+		
+</answers>
+		
+<hint>Hangar Access (Starbase) isn't a thing.</hint>
+		
+<fact>Hangar Access (Other) allows access to selected hangars in all offices that do not fall under either Based at or HQ, this effectively covers anything In Space, including Starbases.</fact>
+	
+</item>		
+				
+<item category="Facts">			
+		<question>	How can players gain manual flight control of their ships in space?	</question>
+	<answers>			
+		<answer>	By assigning Shortcuts/Hotkeys from the ESC menu.	</answer>
+		<answer>	They can't.	</answer>
+		<answer>	They are required to plug in a controller.	</answer>
+		<answer>	Manual flight is available as soon as the patch is live via Directional Keys.	</answer>
+	</answers>			
+		<hint>	Keys	</hint>
+		<fact>	The controls will initially be opt-in so if you wish to try them out you will have to open up the keyboard settings and assign keys to them.	</fact>
+	</item>			
+</trivia>	

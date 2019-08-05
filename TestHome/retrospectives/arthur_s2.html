@@ -1,0 +1,184 @@
+<html>
+
+<head>
+
+<title> ARTHUR S2 </title>
+
+<link rel='stylesheet' href='../css/css.css'/>
+<link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+
+<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+
+<script language="JavaScript">
+
+
+
+		function hideshow(container) {
+
+
+			if (container.className== 'hide') {
+				container.className= 'show'; }
+			else {
+				container.className= 'hide'; }
+
+
+			}
+			
+			</script>
+
+</head>
+
+<body>
+
+<a id="top"/>
+
+
+<div id="page">
+
+
+
+<!-- ------------------------------------------------------------------Page Menu------------------------------------------------------------------ -->
+
+
+<div id="eve_logo_menu">
+
+	<a href="../testing_guide/EVE_Testing.html">
+	<img src="../images/eve.jpg" alt="eve online logo" id="eve_logo_smaller"/>
+	</a>
+
+</div>
+
+
+
+<div id="menu">
+	
+	<div id="result"></div>
+	<script src="JS/menuScript.js"></script>
+	<script type="text/javascript">menuFunction('arthur_s2');</script>
+	
+</div>
+
+
+
+<!-- ------------------------------------------------------------------Page Menu------------------------------------------------------------------ -->
+<!-- --------------------- Nav Bar ----------------- -->
+
+<div id="result_2">
+<script src="../JS/navbar.js"></script>
+<script type="text/javascript">nav_bar_function('arthur_s2');</script>
+</div>
+
+<!-- --------------------- Nav Bar ----------------- -->
+
+
+
+<div id="content">
+
+<!-- ------------------------------------------------------------------Content in here------------------------------------------------------------------ -->
+
+
+<a id="retrospective"/>
+<h4>ARTHUR S2</h4>
+</p>
+<b>Sprint:</b> ARTHUR S2</br>
+<b>Sprint Dates:</b> 07/01/14 - 23/01/14</br>
+<b>Servers:</b> Singularity and Multiplicity</p>
+ 
+<b>Scrum Master:</b> Tormod MacLean</br>
+<b>Attendees:</b></br>
+Tormod MacLean, Alyn McCall, Jesse Alfstad, Laurie Green, Grant McKenna, Gavin Hislop, Stefan Meens, John Nelson.
+Hannah McKie and Liam Ross also joined half way through the meeting.</p>
+
+<a href="#" onclick="hideshow(external_issues)">
+<div class="expandable_content_header">External Issues</div>
+</a>
+<div id="external_issues" class="show">
+<!-- ---------------------------- External Issues ----------------------------- -->
+
+<ul>
+	<li>Smoothwall - Smoothwall interferes with patching and having to request this to be taken down slows down testing. Also having to take it down lowers the IS for the office. It was explained that reason for this is that the addresses that need to be whitelisted for the builds to patch change constantly and as such creating exceptions for Smoothwall does not resolve this issue. Tormod will continue to try and find a solution to this problem.
+	<li>Knowing who to contact at CCP - The whole team agrees that a definitive list of who to contact on what issues would be very beneficial. This is something already under discussion with CCP and should hopefully be resolved when the team gains access to Confluence where CCP stores the information necessary for a solution.
+	<li>A stable test environment would be preferable - The constant updating of builds throughout the sprint means that issues could be getting missed. It was however agreed that there is nothing that can be done about this as it is a core part of CCPs processes.
+</ul>
+
+<!-- ---------------------------- External Issues ----------------------------- -->
+</div>
+
+<a href="#" onclick="hideshow(good_practices)">
+<div class="expandable_content_header">Good Practices</div>
+</a>
+<div id="good_practices" class="show">
+<!-- ---------------------------- Good Practices ----------------------------- -->
+
+<ul>
+	<li>The sprint was completed in good time despite a number of factors that threatened to slow it down (The re-introduction of priority 3 scripts, the newness of many of the testers, that the team was two members short).
+	<li>The more experienced members of the team were incredibly helpful and supportive of the new members.
+	<li>The newer team members now feel much more confident in their understanding of the game and the processes involved in testing it.
+	<li>The new reporting documentation is generally much better.
+	<li>A high number of defects were entered, this is attributed to having fresh eyes on the project.
+</ul>
+
+<!-- ---------------------------- Good Practices ----------------------------- -->
+</div>
+
+<a href="#" onclick="hideshow(team_concerns)">
+<div class="expandable_content_header">Team Concerns</div>
+</a>
+<div id="team_concerns" class="show">
+<!-- ---------------------------- Team Concerns ----------------------------- -->
+
+<ul>
+	<li>While the change doc is a good offline method of recording changes made to scripts and verifying them it does slow down testing a little.
+	<li>The sprint tracker freeze pane should be moved to freeze the titles of the columns.
+	<li>The sprint tracker would ideally have less defect columns but further investigation will be needed into how to simplify this.
+	<li>The scripts are not in a good state. Many are out of date or in need of optimising for better testing.
+<ul>
+
+<!-- ---------------------------- Team Concerns ----------------------------- -->
+</div>
+
+<a href="#" onclick="hideshow(action_points)">
+<div class="expandable_content_header">Action Points</div>
+</a>
+<div id="action_points" class="show">
+<!-- ---------------------------- Action Points ----------------------------- -->
+
+<ul>
+	<li>The sprint tracker is to be modified so that existing issues are present in it at the start of a sprint. It will be the responsibility of the person setting up the document to make sure the information from the previous sprint is properly carried over onto the new sprint, and the testers assigned the script will be responsible for verifying those defects are still relevant when running the script. This information will also be visible on personal pages and be included as Jira links.
+	<li>The team will aim to encourage fresh perspectives when testing and more outside the box thinking in the following ways &#45; structured exploratory around potentially problematic game areas, group testing coupled with investigation of game areas and as the teams sprint times improve increased destructive testing alongside script running.
+	<li>Scripts will be &#34;owned&#34; by team members. It will be the responsibility of a team member to ensure that a script is up to date and that changes are made when necessary.
+	<li>A system will be put in place so that changes to scripts are verified before being made by experienced members of the team.
+	<li>The team will request a special task to update the scripts in the run up to the move from ApTest to Zephyr.
+</ul>
+
+<!-- ---------------------------- Action Points ----------------------------- -->
+</div>
+
+<a href="#" onclick="hideshow(additional_comments)">
+<div class="expandable_content_header">Additional Comments</div>
+</a>
+<div id="additional_comments"class="show"></p>
+<!-- ---------------------------- Additional Comments ----------------------------- -->
+
+
+No additional comments.
+
+
+<!-- ---------------------------- Additional Comments ----------------------------- -->
+</div>
+<!-- ------------------------------------------------------------------Content in here------------------------------------------------------------------ -->
+
+
+
+
+</div>
+
+
+
+
+
+
+</body>
+
+
+</html>

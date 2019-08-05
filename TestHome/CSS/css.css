@@ -1,0 +1,1208 @@
+/*
+
+<-------------------Defaults---------------------->
+
+*/
+
+body
+	{
+		font-family:arial;
+		font-size:smaller; 
+	}
+
+html 	
+	{
+		overflow-y: scroll;
+	}
+
+h4		
+	{	
+		color:white; 
+		background-color:#2245A3; 
+		font-size: 104%; 
+		padding:5px;	
+	}
+
+h5		
+	{
+		color:black; 
+		font-style:italic;
+		background-color:#c1c1c1; 
+		padding:2px;	
+		text-align:left;
+		font-size: 100%; 
+	}
+	
+table, th
+	{
+		font-family:arial; 
+		font-size:13px;
+	}
+	
+a:link 			
+	{  
+		text-decoration: none; 
+		color:#7e7d7e; 
+	}
+	
+a:visited 
+	{ 
+		text-decoration: none; color:#7e7d7e;
+	}
+
+/*
+
+<--------------------Classes---------------------->
+
+*/
+
+/* Menu Links */
+
+.submenu	
+	{
+		position:relative; 
+		left:0px; 
+		width:200px; 
+		background-color:white; 
+		text-align:center;
+	}
+	
+.link2		
+	{
+		position:relative; 
+		width:250px; 
+		height:22px; 
+		padding-top:3px; 
+		padding-left:15px;
+	}
+
+.link2:hover	
+	{
+		background-color: D1D1D1; 
+		width:250px; 
+		height:22px; 
+		top-margin:2px; 
+		padding-top:3px; padding-left:15px;
+	}
+
+.link2active	
+	{
+		position:relative; 
+		width:250px; 
+		height:22px; 
+		padding-top:3px; 
+		padding-left:15px; 
+		font-weight:bold; 
+		color:white; 
+		background-color:#5468FF;
+	}
+	
+.link2active:hover	
+	{
+		background-color: D1D1D1; 
+		width:250px; 
+		height:22px; top-margin:2px; 
+		padding-top:3px; 
+		padding-left:15px;
+		color:#7e7d7e;
+	}
+	
+.link3		
+	{
+		position:relative; 
+		background-color:#2245A3; 
+		color:white; 
+		width:250px; 
+		height:22px; 
+		padding-top:3px; 
+		padding-left:15px;
+	}
+	
+.link3:hover	
+	{
+		background-color:5468FF; 
+		width:250px; 
+		height:22px; 
+		top-margin:2px; 
+		padding-top:3px; 
+		padding-left:15px;
+	}
+
+.link4		
+	{
+		position:relative; 
+		width:250px; 
+		height:22px; 
+		padding-top:3px; 
+		padding-left:15px; 
+		color:#2245A3;
+	}
+	
+.link4:hover	
+	{
+		background-color: D1D1D1; 
+		width:250px; 
+		height:22px; 
+		top-margin:2px; 
+		padding-top:3px; 
+		padding-left:15px; 
+		color:#7e7d7e;
+	}
+		
+/* Nav Bar */
+	
+.nav_bar_collapse	
+	{
+		height:30px; 
+	}
+
+.nav_bar_expand		
+	{
+		height:325px;
+	}
+	
+.nav_bar_cat     
+	{ 
+		position:relative; 
+		top:0px; 
+		cursor:pointer;
+		display: inline-block; 
+		width:200px;   
+		background-color:#2245A3;
+		text-align:center; 
+		font-weight:bold;
+		padding-top:5px; 
+		color:white; 
+		z-index: 2;
+	}
+	
+.nav_bar_cat2     
+	{
+		position:relative; 
+		top:0px; 
+		cursor:pointer;
+		display: inline-block; 
+		width:200px;   
+		background-color:#5468FF; 
+		text-align:center; 
+		font-weight:bold;
+		padding-top:5px; 
+		color:white; 
+		z-index: 2;
+	}					 
+
+.expand               
+	{ 
+		height:auto; 
+		box-shadow: 3px 3px 3px black;
+	}
+	
+.collapse 
+	{ 
+		height:25px;
+	}
+	
+.show2		
+	{  
+		display:block; 
+		opacity: 1; 
+		z-index: 1;
+	}
+
+.hide2			
+	{  
+		display:none; 
+		opacity: 0; 
+		z-index: -2;
+	}
+
+.show3		
+	{
+		visibility:visible; 
+		display:inline-block;
+	}
+	
+.show4		
+	{
+		visibility:visible; 
+		display:block;
+	}
+	
+.hide3		
+	{
+		display:none; 
+		opacity: 0; 
+		z-index:-2
+	}
+	
+.nav_link            
+	{
+		display:block; 
+		position:relative; 
+		width:200px; 
+		height:25px;
+		padding-top:5px; 
+		color:white;
+	}
+	
+.nav_link2           
+	{
+		display:block; 
+		position:relative; 
+		width:200px; 
+		height:30px;
+		padding-top:3px; 
+		color:white;
+	}
+	
+.nav_link3	    
+	{
+		display:block; 
+		position:relative; 
+		width:200px; 
+		height:25px;
+		padding-top:5px; 
+		color:white; 
+		vertical-align:middle;
+	}
+	
+.nav_link3:hover
+	{
+		background-color:#2245A3;
+	}
+	
+.nav_link:hover 
+	{
+		background-color:#5468FF; 
+	}
+	
+table.server_table	
+	{
+		width:300px; 
+		text-align:center; 
+		background-color:#2245A3; 
+		color:white;
+		font-size:small; 
+		padding:5px;
+	}
+
+.server_table td		
+	{
+		width:700;
+	}
+
+.server_table a		
+	{
+		color:white; 
+		text-decoration:underline;
+	}
+
+table.nav_quick_search	
+	{
+		text-align:left; 
+		background-color:#2245A3; 
+		color:white;
+		font-size:small; 
+		padding:5px;
+	}
+
+.nav_quick_search td		
+	{
+		width:120px;
+	}
+	
+/* Release News */
+
+.newsbreak	
+	{
+		position:relative;
+		display: inline-block;
+		width:50px;
+		height:25px;
+		text-align:center;
+	}
+
+.news_collapse	
+	{ 
+		height: 40px;
+		bottom: -10px;
+	}
+	
+.news_expand	
+	{
+		height:700px;
+		bottom: 27px;
+	}
+
+.news_release_expand	
+	{
+		height:663px;
+		
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+	
+.news_box_expand	
+	{
+		position:relative;
+		display:inline-block;
+		width:385px;
+		height:relative;
+		overflow-y: hidden;
+		overflow-x: hidden;
+	}
+
+.news_box_collapse	
+	{
+		position:relative;
+		display:inline-block;
+		width:385px;
+		height:27px;
+		overflow-y: hidden;
+		overflow-x: hidden;
+	}
+	
+.news_box_title	
+	{
+		position:relative;
+		display:inline-block;
+		width:99%;
+		height:20px;
+		padding:2px;
+		padding-top:10px;
+		font-weight:bold;
+		color:white;
+		background-color:#2245A3;
+		font-size:smaller;
+		text-align:center;
+		text-transform:capitalize;
+		border-bottom: thin solid white;
+	}
+	
+.news_title		
+	{
+		position:relative;
+		display:inline-block;
+		width:100%;
+		height:25px;
+		padding:2px;
+		padding-top:7px;
+		padding-left:5px;
+		font-weight:bold;
+		color:#2245A3;
+		font-size:small;
+		text-align:center;
+		vertical-align:middle;
+	}
+	
+.news_box_entry	
+	{
+		position:relative;
+		display:inline-block;
+		width:99%;
+		height:22px;
+		padding:2px;
+		padding-top:5px;
+		font-weight:bold;
+		color:white;
+		background-color:#2245A3;
+		font-size:smaller;
+		text-align:center;
+		text-transform:capitalize;
+		border-bottom: thin solid white;
+	}
+	
+.news_box_entry:hover 	
+	{
+		background-color: D1D1D1;
+		color:#7e7d7e;
+	}
+	
+.news_box_entry:active 	
+	{
+		background-color: #85C2FF;
+		color:white;
+	}
+	
+.news_box_release_break 		
+	{
+		position:relative;
+		display:inline-block;
+		width:99%;
+		height:20px;
+		padding:2px;
+		padding-top:5px;
+		padding-left:5px;
+		font-weight:bold;
+		color:white;
+		background-color:#5468FF;
+		font-size:smaller;
+	}
+
+/* Regressions Script page */
+
+.regression_tests
+	{
+		border:1px solid black;
+		border-collapse: collapse;
+		padding:5px;
+	}
+	
+/* Glossary page */
+
+.glossary_word		
+	{
+		position:relative;
+		display:block;
+		width:280px;
+		color:#2245A3;
+		background-color:white;
+		font-weight:bold;
+		text-align:right;
+	}
+	
+.glossary_definition		
+	{
+		position:relative;
+		display:block;
+		width:400px;
+		left:300px;
+		top: -15px;
+		background-color:white;
+		padding-left:15px;
+		padding-bottom:15px;
+		padding-top:5px;
+		border-bottom: thin double #7e7d7e;
+	}
+
+/* Expandable page content */
+
+.expandable_content_header	
+	{
+		position:relative;
+		width:720px;
+		height:22px;
+		padding-top:3px;
+		padding-left:15px;
+		font-weight:bold;
+		color:white;
+		background-color:#2245A3;
+		border-bottom-style:solid;
+		border-color:white;
+	}
+	
+.expandable_content_header:hover	
+	{
+		background-color:D1D1D1;
+	}
+
+.hide 		
+	{
+		visibility: hidden;
+		display: none;
+	}
+	
+.show 		
+	{
+		visibility: visible;
+		display: block;
+	}
+	
+/* EVE Team page */
+
+.tester		
+	{
+		position:relative;
+		display:block;
+		width:200px;
+		color:#2245A3;
+		background-color:white;
+		font-weight:bold;
+		text-align:left;
+	}
+	
+.contacts	
+	{
+		position:relative;
+		display:block;
+		width:600px;
+		left:180px;
+		top: -15px;
+		height:30px;
+		background-color:white;
+		padding-left:15px;
+		padding-bottom:15px;
+		padding-top:5px;
+		border-bottom: thin double #7e7d7e;
+	}
+	
+.skype		
+	{
+		position:absolute;
+		width:150px;
+		height:20px;
+		text-align:center;
+		background-color:white;
+	}
+
+.xbox		
+	{
+		position:absolute;
+		width:150px;
+		height:20px;
+		left:160px;
+		text-align:center;
+		background-color:white;
+	}
+
+.psn		
+	{
+		position:absolute;
+		width:150px;
+		height:20px;
+		left:310px;
+		text-align:center;
+		background-color:white;
+	}
+
+.steam		
+	{
+		position:absolute;
+		width:150px;
+		height:20px;
+		left:460px;
+		text-align:center;
+		background-color:white;
+	}
+	
+/* Misc Text */
+
+.green		
+	{
+		font-weight:bold;
+		color:1CE815;
+	}
+	
+.orange		
+	{
+		font-weight:bold;
+		color:ED8D0E;
+	}
+	
+.red		
+	{
+		font-weight:bold;
+		color:red;
+	}
+	
+.white		
+	{
+		font-weight:bold;
+		color:white;
+	}
+	
+.blue		
+	{
+		font-weight:bold;
+		color:2245A3;
+	}
+	
+.yellow		
+	{
+		font-weight:bold;
+		color:yellow;
+	}
+	
+.keypoint	
+	{
+		color:red;
+		font-style:italic;
+		font-weight:bold;
+	}
+	
+.bold		
+	{
+		font-weight:bold;
+		color:#7e7d7e;
+	}
+
+.videos		
+	{
+		width:750px;
+	}
+
+.dns_setting	
+	{
+		position:relative;
+		display: inline-block;
+		width:70px;
+		height:25px;
+		text-align:left;
+	}
+
+/* Misc Links */
+
+.bottom_bar_link		
+	{
+		cursor:pointer; 
+	}
+	
+.quizlink	
+	{
+		color:red;
+		text-align:center;
+		font-size:20px;
+		font-weight:bold;
+	}
+
+/* Misc Images */
+
+.mini_eve_icon	
+	{
+		position:absolute; 
+		right:100px;
+	}
+
+.contentimage	
+	{
+		position:relative; 
+		display:block; 
+		width:720px; 
+		margin-left: auto;    
+		margin-right: auto ;
+	}
+	
+.contentimage2
+	{
+		position:relative; 
+		display:block; 
+		width:60%; 
+		height:70%; 
+		margin-left: auto;    
+		margin-right: auto; 
+	}
+	
+.contentimage3
+	{
+		position:relative; 
+		display:block; 
+		width:80%; 
+		height:80%; 
+		margin-left: auto;    
+		margin-right: auto; 
+	}
+	
+.contentimage_cent 
+	{    
+		display: block;    
+		margin-left: auto;    
+		margin-right: auto; 
+	}
+	
+.thumbnail td
+	{
+		width:250px; 
+		text-align:center; 
+		padding-left:10px; 
+		padding-right:10px;
+	}
+	
+.thumbnail_description 
+	{
+		width:250px; 
+		text-align:center;
+		font-family:arial; 
+		font-size:9px 
+	}
+
+.petitions_thumbnail 
+	{
+		width:220px; 
+		height:110px;
+	}
+
+/* Release Schedule page */
+.release_schedule	
+	{
+		position:relative;
+		left:200px;
+	}
+	
+/*
+
+<--------------------------IDs----------------------------->
+
+*/
+
+/* Nav Bar */
+
+#nav_expand_image	
+	{
+		position:absolute; 
+		right:200px; 
+		bottom:0px;
+	}
+
+#nav_collapse_image	
+	{
+		position:absolute; 
+		right:200px; 
+		bottom:0px; 
+	}
+
+#nav_bar_background 
+	{
+		position:fixed; 
+		z-index:2; 
+		left:0px; 
+		top:0px; 
+		width:100%; 
+		background-color:D1D1D1;
+	}
+
+#nav_bar_container	
+	{
+		width:1300px;   
+		margin-left:auto; 
+		margin-right:auto; 
+		position:relative;	
+		z-index:2; 
+	}
+
+#nav_bar_server_container	
+	{
+		width:1300px;   
+		margin-left:auto; 
+		margin-right:auto; 
+		top:50px;
+		position:relative;  
+	}
+	
+#nav_bar            
+	{
+		display:block; 
+		width:1300px; 
+		height:30px;  
+		position: fixed; 
+		top:0px; 
+		z-index:2; 
+		background-color:D1D1D1; 
+		font-weight:bold;
+		text-align:right; 
+		color:white;
+	}
+
+#nav_cat1		
+	{		
+		position:absolute; 
+		left:0px; 
+	}
+	
+#nav_cat2		
+	{
+		position:absolute; 
+		left:205px; 
+	}
+
+#nav_cat3		
+	{ 
+		position:absolute; 
+		left:410px; 
+	}
+	
+#nav_cat4		
+	{
+		position:absolute; 
+		left:615px; 
+	}
+
+#nav_cat5		
+	{
+		position:absolute; 
+		left:820px; 
+	}
+	
+#eve_server_table	
+	{
+		width:1000px; 
+		height:250px;
+	}
+
+#server_quick_search	
+	{ 
+		position:absolute; 
+		display:inline-block; 
+		width:700px; 
+		height: 250px;
+		left:350px;	
+		top:0px; 
+		background-color:#2245A3; 
+		padding-left:5px;
+		padding-top:5px;
+	}
+	
+/* Home Page */
+
+#header_news		
+	{
+		position:relative; 
+		margin-left: auto; 
+		margin-right: auto; 
+		display:block;
+		width:1000px; 
+		height:50px; 
+		top:20px; 
+		padding:15px; 
+	}
+
+#SIL_box
+	{
+	
+	}
+
+#eve_logo	
+	{
+		z-index: -1; 
+		position:absolute; 
+		display:block; 
+		width:1000px; 
+		height:600px;
+		text-align:center; 
+		margin-left: auto;
+		margin-right: auto; 
+		top:200px;
+	}
+
+#valk_logo_small	
+	{
+		width:300px;
+	}
+
+#bottom_bar 
+	{
+		position:fixed; 
+		z-index:2; 
+		left:0px; 
+		bottom:0px; 
+		width:100%; 
+		background-color:D1D1D1; 
+		height:30px;
+		text-align:right; 
+		padding-right:10px;
+	}
+	
+#bottom_bar_container	
+	{
+		width:1300px;   
+		margin-left:auto; 
+		margin-right:auto; 
+		text-align:center;
+		position:relative;	
+		z-index:2; 
+		padding-top:5px; 
+		font-weight:bold;
+	}	
+	
+/* Release News */
+
+#news_section	
+	{
+		position: fixed;
+		display: block;
+		z-index: 2;
+		width:400px;
+		right:0px;
+		background-color:D1D1D1;
+	}
+	
+/* Menu */
+
+#eve_logo_menu	
+	{
+		z-index: 1;  
+		display:block; 
+		top:100px; 
+	}
+
+#menu		
+	{ 
+		top:20px; 
+		width:265px; 
+		height: 700px; 
+		background-color:white; 
+		text-align:left; 
+		display:block; 
+		position:relative;
+	}
+
+#eve_logo_smaller 
+	{
+		width:250px;
+	}
+
+/* Script Tips */	
+	
+#training_queue_box		
+	{
+		position:relative; 
+		display:block; 
+		width:720px; 
+		height:350px;  
+		border-color:7e7d7e; 
+		border-width:2px;
+		background-color:transparent;
+		font-weight:bold;
+	}
+
+#training_queue_column1
+	{
+		position:relative; 
+		left:10px; 
+		width:100px; 
+		top:10px; 
+		padding:5px;
+	}
+	
+#training_queue_column2	
+	{
+		position:absolute;
+		left:150px;
+		width:100px;
+		top:10px;
+		padding:5px;
+	}
+	
+#training_queue_column3	
+	{
+		position:absolute;
+		left:300px;
+		width:100px;
+		top:10px;
+		padding:5px;
+	}
+	
+#training_queue_column4	
+	{
+		position:absolute;
+		left:450px;
+		width:100px;
+		top:10px;
+		padding:5px;
+	}
+
+#wh		
+	{
+		position:relative;
+		display:block;
+		width:720px;
+		height:300px;
+		border-color:7e7d7e;
+		border-width:2px;
+		background-color:transparent;
+	}
+
+#wh1		
+	{
+		position:relative;
+		left:10px;
+		width:150px;
+		top:10px;
+		padding:5px;
+	}
+	
+#wh2		
+	{
+		position:absolute;
+		left:150px;
+		width:150px;
+		top:10px;
+		padding:5px;
+	}
+	
+#wh3		
+	{
+		position:absolute;
+		left:300px;
+		width:200px;
+		top:10px;
+		padding:5px;
+	}
+
+#tech3mods	
+	{
+		position:relative;
+		display:block;
+		width:720px;
+		height:500px;
+		border-style:solid;
+		border-color:7e7d7e;
+		border-width:2px;
+		background-color:transparent;
+	}
+
+#tech3races	
+	{
+		position:relative;
+		display:block;
+		width:720px;
+		height:20px;
+		top:5px;
+		text-align:center;
+		padding-top:5px;
+		font-weight:bold;
+	}
+
+#tech3amarr	
+	{
+		position:absolute;
+		display:block;
+		width:720px;
+		height:450px;
+		text-align:center;
+		background-color:white;
+	}
+
+#tech3cal	
+	{
+		position:absolute;
+		display:block;
+		width:720px;
+		height:450px;
+		text-align:center;
+		background-color:white;
+	}
+
+#tech3gal	
+	{
+		position:absolute;
+		display:block;
+		width:720px;
+		height:450px;
+		text-align:center;
+		background-color:white;
+	}
+
+#tech3min	
+	{
+		position:absolute;
+		display:block;
+		width:720px;
+		height:450px;
+		text-align:center;
+		background-color:white;
+	}
+
+/* General Page Content */
+
+#content
+	{
+		position:absolute; 
+		display:block; 
+		width:750px;  
+		left:280px; 
+		top:10px; 
+		background-color:white; 
+		text-align:justify;
+		font-size:normal; 
+		padding:15px;
+	}	
+
+#page		
+	{
+		position:relative; 
+		margin-left: auto; 
+		margin-right: auto; 
+		display:block;
+		width:1000px; 
+		height:550px; 
+		top:70px; 
+	}
+	
+/* Quiz Box */
+	
+#quiz		
+	{
+		position:absolute;
+		top:100px;
+		left:550px;
+		width:800px;
+		height:600px;
+	}
+
+/* Bug report categories */
+
+#BR_category_table	
+	{
+		position:relative;
+		display:block;
+		width:720px;
+		height:400px;
+		border-color:7e7d7e;
+		border-width:2px;
+		background-colornd-color:transparent;
+	}
+
+/* Quick search */	
+	
+#esp_quick_search 
+	{
+		display:block;
+		position:absolute;
+		width:500px;
+		height: 500px;
+		background-color:D1D1D1;
+		top:150px;
+		left:720px;
+		border-style:solid;
+		border-color:#2245A3;
+		border-radius: 15px;
+		box-shadow: 10px 10px 5px #888888;
+	}
+	
+#esp_qs_default	
+	{
+		position:relative;
+		left:60px;
+	}
+	
+#esp_qs_chaos	
+	{
+		position:relative;
+		left:60px;
+	}
+	
+#esp_qs_multi	
+	{
+		position:relative;
+		left:60px;
+	}
+	
+#esp_qs_sisi	
+	{
+		position:relative;
+		left:60px;
+	}
+	
+#esp_qs_servers 
+	{
+		display:block;
+		position:relative;
+		width:500px;
+		height: 20px;
+		background-color:D1D1D1;
+		text-align:center;
+		padding-top:10px;
+		border-radius: 15px;
+	}
+	
+#esp_qs_close 
+	{
+		display:block;
+		position:relative;
+		width:500px;
+		height: 20px;
+		background-color:D1D1D1;
+		text-align:center;
+		padding-top:10px;
+		border-radius: 15px;
+	}

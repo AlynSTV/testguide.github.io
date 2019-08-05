@@ -1,0 +1,550 @@
+<html>
+
+<head>
+
+<title> Servers</title>
+
+<link rel='stylesheet' href='../css/css.css'/>
+<link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+
+<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+
+<script type="text/javascript" src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>
+<script language="JavaScript">
+
+	function hideshow(container) {
+		if (container.className== 'hide') {
+			container.className= 'show'; }
+		else {
+			container.className= 'hide'; }
+	}			
+			
+	function qs_chaos() {
+
+			
+	if (esp_qs_chaos.className== 'hide') {
+			esp_qs_chaos.className= 'show'; }
+	
+		if (esp_qs_multi.className== 'show') {
+			esp_qs_multi.className= 'hide'; }
+			
+		if (esp_qs_sisi.className== 'show') {
+			esp_qs_sisi.className= 'hide'; }
+		
+	}		
+	
+		function qs_multi() {
+
+			
+	if (esp_qs_multi.className== 'hide') {
+			esp_qs_multi.className= 'show'; }
+	
+		if (esp_qs_chaos.className== 'show') {
+			esp_qs_chaos.className= 'hide'; }
+			
+		if (esp_qs_sisi.className== 'show') {
+			esp_qs_sisi.className= 'hide'; }
+		
+	}		
+	
+		function qs_sisi() {
+
+			
+	if (esp_qs_sisi.className== 'hide') {
+			esp_qs_sisi.className= 'show'; }
+	
+		if (esp_qs_multi.className== 'show') {
+			esp_qs_multi.className= 'hide'; }
+			
+		if (esp_qs_chaos.className== 'show') {
+			esp_qs_chaos.className= 'hide'; }
+		
+	}		
+
+
+
+	
+</script>
+
+
+</head>
+
+<body>
+
+
+
+<div id="page">
+
+
+
+<!-- ------------------------------------------------------------------Page Menu------------------------------------------------------------------ -->
+
+
+<div id="eve_logo_menu">
+
+	<a href="EVE_Testing.html">
+	<img src="../images/eve.jpg" alt="eve online logo" id="eve_logo_smaller"/>
+	</a>
+
+</div>
+
+
+
+<div id="menu">
+
+	<div id="result"></div>
+	<script src="../JS/menuScript.js"></script>
+	 <script type="text/javascript">menuFunction('test');</script>
+	 
+</div>
+
+
+
+<!-- ------------------------------------------------------------------Page Menu------------------------------------------------------------------ -->
+
+
+
+<div id="content">
+
+<!-- cerberus start -->
+
+<form name="cerberus" id="cerberus_search" action="http://87.237.38.71:50001/gd/cerberus.py?action=SearchText&" method="POST" target="_blank">
+<table border="0"><tbody><tr>
+    <td valign="top"><span>Search Cerberus</span></td>
+    <td><input type="text" id="searchText" name="searchText" size="20" value=""></td>
+    <td valign="top"><span><label class="form-padding-label" for="en-us">en-us</label></span></td>
+    <td><input type="checkbox" id="en-us" value="lang_1033" name="en-us" checked=""> <label class="form-label" for="en-us"></label></td>
+	<td valign="top"><span><label class="form-padding-label" for="fr">fr</label></span></td>
+    <td><input type="checkbox" id="fr" value="lang_1036" name="fr"> <label class="form-label" for="fr"></label></td>
+    <td valign="top"><span></span></td>
+    <td><input type="submit" id="Post" name="Post" value="SEARCH"><input type="hidden" name="action" value="SearchText"> </td>
+</tr></tbody></table><input type="hidden" name="csrf_token" value="ba31f7a7-3a3b-4568-bb9e-4a4f7aca39d5"></form>
+
+<!-- cerberus end -->
+
+<div id="esp_quick_search">
+
+<div id="esp_qs_servers">
+<a href="#" onclick="qs_chaos()">Chaos </a>
+|
+<a href="#" onclick="qs_multi()">Multi </a>
+|
+<a href="#" onclick="qs_sisi()">Singularity </a>
+</div>
+
+<!-- ------------------------------------------ ESP Quick Search --------------------------------------------- -->
+
+<div id="esp_qs_chaos" class="show">
+
+<!-- -------- Chaos ----------- -->
+<h4> Chaos</h4>
+<b>TypeID</b></p>
+<table class="WebPartTable" cellpadding="0" cellspacing="0" width="100%" border="0" id="wpTypeByID">
+<tbody>
+<tr>
+    <td>
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tbody><tr>
+        <td valign="top" class="WebPartContent ">
+<form name="NeedAName" id="NeedAName" action="http://87.237.38.71:50001/gd/type.py?action=TypeByID" method="GET" target="_blank">
+<table border="0">
+<tbody><tr>
+    <td valign="top"><span>ID Number</span></td>
+    <td>
+    <input type="text" id="typeID" name="typeID" size="20" value=""> 
+    </td>
+</tr>
+<tr>
+    <td valign="top"><span></span></td>
+    <td>
+    <input type="submit" id="Post" name="Post" value="Select">
+<input type="hidden" name="action" value="Type"> 
+    </td>
+</tr>
+</tbody></table></form>        </td>
+     </tr>
+     </tbody></table>
+     </td>
+</tr>
+</tbody></table>
+
+<b>Type By Filter</b></p>
+<form name="NeedAName" id="NeedAName" action="http://87.237.38.71:50001/gm/search.py?action=Characters" method="GET" target="_blank">
+<table border="0">
+<tbody><tr>
+    <td valign="top"><span>Language</span></td>
+    <td>
+        <select id="languageID" name="languageID">
+        <option value="None">All</option>
+        <option value="zh">Chinese (Simplified)</option>
+        <option value="en-us">English - United States</option>
+        <option value="fr">French</option>
+        <option value="de">German</option>
+        <option value="it">Italian</option>
+        <option value="ja">Japanese</option>
+        <option value="ru">Russian</option>
+        <option value="es">Spanish</option>
+    </select> 
+ 
+    </td>
+</tr>
+<tr>
+    <td valign="top"><span>TypeName</span></td>
+    <td>
+    <input type="text" id="typeName" name="typeName" size="30" value=""> 
+    </td>
+</tr>
+<tr>
+    <td valign="top"><span></span></td>
+    <td>
+    <input type="submit" id="Post" name="Post" value="Submit">
+<input type="hidden" name="action" value="Types"> 
+    </td>
+</tr>
+</tbody></table></form>
+
+<b>Dungeons</b></p>
+<form name="NeedAName" id="NeedAName" action="http://87.237.38.71:50001/gd/dungeons.py?action=xFindDungeons" method="GET" target="_blank">
+<table border="0">
+<tbody><tr>
+    <td valign="top"><span>Domain</span></td>
+    <td>
+        <select id="domain" name="domain">
+        <option value="dungeons">dungeons</option>
+        <option value="rooms">rooms</option>
+        <option value="objects">objects</option>
+        <option value="entities">entities</option>
+        <option value="incoming transmission text">incoming transmission text</option>
+        <option value="agent templatized messages">agent templatized messages</option>
+    </select> 
+ 
+    </td>
+</tr>
+<tr>
+    <td valign="top"><span>Criteria</span></td>
+    <td>
+    <input type="text" id="criteria" name="criteria" size="50" value=""> 
+    </td>
+</tr>
+<tr>
+    <td valign="top"><span></span></td>
+    <td>
+    <input type="submit" id="Post" name="Post" value="Find dungeons">
+<input type="hidden" name="action" value="xFindDungeons"> 
+    </td>
+</tr>
+</tbody></table></form>
+
+</div>
+
+<!-- -------------------- Chaos --------------------- -->
+
+<div id="esp_qs_multi" class="hide">
+
+<!-- --------------------- Multi ----------------------- -->
+<h4> Multiplicity</h4>
+<b>TypeID</b></p>
+<table class="WebPartTable" cellpadding="0" cellspacing="0" width="100%" border="0" id="wpTypeByID">
+<tbody>
+<tr>
+    <td>
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tbody><tr>
+        <td valign="top" class="WebPartContent ">
+<form name="NeedAName" id="NeedAName" action="http://87.237.38.15:50001/gd/type.py?action=TypeByID" method="GET" target="_blank">
+<table border="0">
+<tbody><tr>
+    <td valign="top"><span>ID Number</span></td>
+    <td>
+    <input type="text" id="typeID" name="typeID" size="20" value=""> 
+    </td>
+</tr>
+<tr>
+    <td valign="top"><span></span></td>
+    <td>
+    <input type="submit" id="Post" name="Post" value="Select">
+<input type="hidden" name="action" value="Type"> 
+    </td>
+</tr>
+</tbody></table></form>        </td>
+     </tr>
+     </tbody></table>
+     </td>
+</tr>
+</tbody></table>
+<b>Type By Filter</b></p>
+<form name="NeedAName" id="NeedAName" action="http://87.237.38.15:50001/gm/search.py?action=Characters" method="GET" target="_blank">
+<table border="0">
+<tbody><tr>
+    <td valign="top"><span>Language</span></td>
+    <td>
+        <select id="languageID" name="languageID">
+        <option value="None">All</option>
+        <option value="zh">Chinese (Simplified)</option>
+        <option value="en-us">English - United States</option>
+        <option value="fr">French</option>
+        <option value="de">German</option>
+        <option value="it">Italian</option>
+        <option value="ja">Japanese</option>
+        <option value="ru">Russian</option>
+        <option value="es">Spanish</option>
+    </select> 
+ 
+    </td>
+</tr>
+<tr>
+    <td valign="top"><span>TypeName</span></td>
+    <td>
+    <input type="text" id="typeName" name="typeName" size="30" value=""> 
+    </td>
+</tr>
+<tr>
+    <td valign="top"><span></span></td>
+    <td>
+    <input type="submit" id="Post" name="Post" value="Submit">
+<input type="hidden" name="action" value="Types"> 
+    </td>
+</tr>
+</tbody></table></form>
+
+<b>Dungeons</b></p>
+<form name="NeedAName" id="NeedAName" action="http://87.237.38.15:50001/gd/dungeons.py?action=xFindDungeons" method="GET" target="_blank">
+<table border="0">
+<tbody><tr>
+    <td valign="top"><span>Domain</span></td>
+    <td>
+        <select id="domain" name="domain">
+        <option value="dungeons">dungeons</option>
+        <option value="rooms">rooms</option>
+        <option value="objects">objects</option>
+        <option value="entities">entities</option>
+        <option value="incoming transmission text">incoming transmission text</option>
+        <option value="agent templatized messages">agent templatized messages</option>
+    </select> 
+ 
+    </td>
+</tr>
+<tr>
+    <td valign="top"><span>Criteria</span></td>
+    <td>
+    <input type="text" id="criteria" name="criteria" size="50" value=""> 
+    </td>
+</tr>
+<tr>
+    <td valign="top"><span></span></td>
+    <td>
+    <input type="submit" id="Post" name="Post" value="Find dungeons">
+<input type="hidden" name="action" value="xFindDungeons"> 
+    </td>
+</tr>
+</tbody></table></form>
+
+</div>
+
+<!-- -------------------- Multi ---------------------- -->
+
+
+<div id="esp_qs_sisi" class="hide">
+<!-- --------------------- Sisi ----------------------- -->
+<h4> Singularity</h4>
+<b>TypeID</b></p>
+<table class="WebPartTable" cellpadding="0" cellspacing="0" width="100%" border="0" id="wpTypeByID">
+<tbody>
+<tr>
+
+    <td>
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tbody><tr>
+        <td valign="top" class="WebPartContent ">
+<form name="NeedAName" id="NeedAName" action="http://87.237.38.24:50001/gd/type.py?action=TypeByID" method="GET" target="_blank">
+<table border="0">
+<tbody><tr>
+    <td valign="top"><span>ID Number</span></td>
+    <td>
+    <input type="text" id="typeID" name="typeID" size="20" value=""> 
+    </td>
+</tr>
+<tr>
+    <td valign="top"><span></span></td>
+    <td>
+    <input type="submit" id="Post" name="Post" value="Select">
+<input type="hidden" name="action" value="Type"> 
+    </td>
+</tr>
+</tbody></table></form>        </td>
+     </tr>
+     </tbody></table>
+     </td>
+</tr>
+</tbody></table>
+<b>Type By Filter</b></p>
+<form name="NeedAName" id="NeedAName" action="http://87.237.38.24:50001/gm/search.py?action=Characters" method="GET" target="_blank">
+<table border="0">
+<tbody><tr>
+    <td valign="top"><span>Language</span></td>
+    <td>
+        <select id="languageID" name="languageID">
+        <option value="None">All</option>
+        <option value="zh">Chinese (Simplified)</option>
+        <option value="en-us">English - United States</option>
+        <option value="fr">French</option>
+        <option value="de">German</option>
+        <option value="it">Italian</option>
+        <option value="ja">Japanese</option>
+        <option value="ru">Russian</option>
+        <option value="es">Spanish</option>
+    </select> 
+ 
+    </td>
+</tr>
+<tr>
+    <td valign="top"><span>TypeName</span></td>
+    <td>
+    <input type="text" id="typeName" name="typeName" size="30" value=""> 
+    </td>
+</tr>
+<tr>
+    <td valign="top"><span></span></td>
+    <td>
+    <input type="submit" id="Post" name="Post" value="Submit">
+<input type="hidden" name="action" value="Types"> 
+    </td>
+</tr>
+</tbody></table></form>
+<b>Dungeons</b></p>
+<form name="NeedAName" id="NeedAName" action="http://87.237.38.24:50001/gd/dungeons.py?action=xFindDungeons" method="GET" target="_blank">
+<table border="0">
+<tbody><tr>
+    <td valign="top"><span>Domain</span></td>
+    <td>
+        <select id="domain" name="domain">
+        <option value="dungeons">dungeons</option>
+        <option value="rooms">rooms</option>
+        <option value="objects">objects</option>
+        <option value="entities">entities</option>
+        <option value="incoming transmission text">incoming transmission text</option>
+        <option value="agent templatized messages">agent templatized messages</option>
+    </select> 
+ 
+    </td>
+</tr>
+<tr>
+    <td valign="top"><span>Criteria</span></td>
+    <td>
+    <input type="text" id="criteria" name="criteria" size="50" value=""> 
+    </td>
+</tr>
+<tr>
+    <td valign="top"><span></span></td>
+    <td>
+    <input type="submit" id="Post" name="Post" value="Find dungeons">
+<input type="hidden" name="action" value="xFindDungeons"> 
+    </td>
+</tr>
+</tbody></table></form>
+
+</div>
+
+<!-- ------------------ Sisi ---------------------------------- -->
+
+<!-- ---------------- Quick Search End -------------- -->
+</div>
+
+
+
+<!-- ------------------------------------------ ESP Quick Search --------------------------------------------- -->
+
+<!-- ------------------------------------------------------------------Content in here------------------------------------------------------------------ -->
+<!-- ---------------------- Search ---------------------> 
+<marquee>scroll</marquee>
+
+
+
+<form method="post" action="https://bugs.eveonline.com/search.asp?" target="_blank">
+	<table class="dataTable" cellspacing="0" width="100%">
+	
+	<tbody><tr>
+			<td class="dataTableHeader">Keywords:</td>
+			
+			
+			
+			<td class="dataTableHeader"><textarea cols="40%" name="keyword" id="Textarea1"></textarea>
+			</td>
+			
+			</tr><tr>
+
+			<td class="dataTableHeader">Project:</td>
+			<td class="dataTableHeader">
+				<select name="ProjectID">
+				    <option value="0">ALL</option>
+      				<option value="1">EVE Online</option>
+      				
+      				<option value="13" selected="">DUST</option>
+				</select>
+
+<input type="submit" name="submit" value="Submit" id="submit">
+			</td>
+	
+		</tr>
+			
+			
+	
+	</tbody></table>
+</form>
+
+
+
+
+
+<!-- ---------------------- open defects ----------------->
+
+<form method="post" action="https://bugs.eveonline.com/dust_defect_list.asp" target="_blank">
+	<table class="dataTable" cellspacing="0" width="100%">
+  	<tbody><tr>
+
+			<td class="dataTableHeader">
+			  Category:<br>
+  		  
+		    <select name="Category">
+		    <option value="0">All</option>
+		    <option value="15"> DUST - Collision</option><option value="16"> DUST - Animation</option><option value="17"> DUST - Camera</option><option value="18"> DUST - Sound</option><option value="19"> DUST - Graphics</option><option value="20"> DUST - Level Art</option><option value="21"> DUST - Level Design</option><option value="22"> DUST - Performance</option><option value="23"> DUST - Database</option><option value="24"> DUST - Network</option><option value="25"> DUST - TRC</option><option value="26"> DUST - Dev Tools</option><option value="27"> DUST - Peripheral</option><option value="28"> DUST - Game Mechanics</option><option value="29"> DUST - Technical</option><option value="30"> DUST - UI</option><option value="31"> DUST - Effects</option><option value="32"> DUST - Other</option><option value="41"> DUST - AI</option><option value="42"> DUST - Localization</option><option value="43"> DUST - VGS</option><option value="44"> DUST - Translation</option><option value="45"> DUST - Content Streaming</option><option value="46"> DUST - FQA</option><option value="47"> DUST - Stability</option>
+  		    </select>
+  		    
+  				
+  			
+			</td>
+			<td class="dataTableHeader">
+  		 Team:<br>
+  		  
+		    <select name="Team">
+		    <option value="0">All</option>
+		    <option value="1"> No Team</option><option value="16"> Special Circumstances</option><option value="23"> Sleeper Cell</option><option value="24"> Localization</option><option value="28"> Stonehenge</option><option value="33"> TriLambda</option><option value="38"> Cobra Kai</option><option value="39"> GM Live</option><option value="47"> Gridlock</option><option value="51"> Pony Express</option><option value="55"> Core Graphics Tools</option><option value="57"> Nucleus</option><option value="66"> Vesen</option><option value="67"> Cerberus</option><option value="68"> Core Incarna</option><option value="69"> Security</option><option value="70"> Charlie Sheen</option><option value="71"> Cut Offs</option><option value="76"> Magnum UI</option><option value="78"> Story Bro</option><option value="80"> Bru</option><option value="82"> Delta Force</option><option value="83"> Dominatrix</option><option value="84"> Flash</option><option value="85"> Flow</option><option value="86"> Impact</option><option value="87"> Kong</option><option value="88"> NB</option><option value="89"> DUST Directors</option><option value="90"> DUST Obsolete  Team</option><option value="93"> Mammon</option><option value="94"> Avatar</option><option value="95"> Core Rendering</option><option value="96"> Five 0</option><option value="97"> Game of Drones</option><option value="98"> Super Friends</option><option value="99"> Gridlock</option><option value="100"> Synergy</option><option value="101"> Ass Force One</option><option value="103"> True Grit</option><option value="105"> Zorglub</option><option value="108"> A Bucket</option><option value="109"> e4e Functionality</option><option value="110"> e4e Japan</option><option value="111"> DUST_e4e_Func</option><option value="112"> Vanquish</option><option value="113"> Vector</option><option value="114"> Sub Local</option><option value="115"> GForce</option><option value="116"> Left</option><option value="117"> EVE China QA</option><option value="118"> 1080</option><option value="119"> Pyrite</option><option value="120"> FDA</option><option value="121"> Pony Express</option><option value="122"> DUST_e4e_Loc</option><option value="123"> Rex</option><option value="124"> 200</option><option value="125"> DUST Live</option><option value="126"> Turbo</option><option value="127"> DUST Art Mgmt</option><option value="128"> Prototyping Rocks</option><option value="129"> RoundHouse Kick</option><option value="130"> DUST Mobile</option><option value="131"> Earworm</option><option value="132"> Touch U</option><option value="133"> Touch ME</option><option value="134"> Young Money</option><option value="135"> Klang</option><option value="136"> Tao</option><option value="137"> Clic</option><option value="138"> Hand Grenade Chicken</option><option value="139"> Meme</option><option value="140"> Troll Bridge</option><option value="141"> DUST Core QA</option><option value="142"> Hotrod</option>
+  		    </select>
+  		    
+  				
+  			
+  		</td>
+      <td class="dataTableHeader" valign="bottom"><input type="submit" value="Submit"></td>
+      <td class="dataTableHeader" style="width:100%">&nbsp;</td>
+    </tr>
+	</tbody></table>
+
+</form>
+
+
+
+
+
+<form action="https://jira.ccpgames.com//secure/QuickSearch.jspa" method="post" id="quicksearch" target="_blank">
+        <input id="quickSearchInput" class="search" type="text" title="Quick Search ( Type '/' )" placeholder="Quick Search" name="searchString" accesskey="q">
+        <input type="submit" class="hidden" value="Search">
+    </form>
+
+</div>
+
+
+
+</body>
+
+
+</html>

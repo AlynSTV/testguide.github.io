@@ -1,0 +1,294 @@
+<html>
+
+<head>
+
+<title> INDUSTRY S2 </title>
+
+<link rel='stylesheet' href='../css/css.css'/>
+<link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+
+<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+
+<script language="JavaScript">
+
+
+
+		function hideshow(container) {
+
+
+			if (container.className== 'hide') {
+				container.className= 'show'; }
+			else {
+				container.className= 'hide'; }
+
+
+			}
+			
+			</script>
+
+</head>
+
+<body>
+
+<a id="top"/>
+
+
+<div id="page">
+
+
+
+<!-- ------------------------------------------------------------------Page Menu------------------------------------------------------------------ -->
+
+
+<div id="eve_logo_menu">
+
+	<a href="../testing_guide/EVE_Testing.html">
+	<img src="../images/eve.jpg" alt="eve online logo" id="eve_logo_smaller"/>
+	</a>
+
+</div>
+
+
+
+<div id="menu">
+	
+	<div id="result"></div>
+	<script src="JS/menuScript.js"></script>
+	<script type="text/javascript">menuFunction('industry_s2');</script>
+	
+</div>
+
+
+
+<!-- ------------------------------------------------------------------Page Menu------------------------------------------------------------------ -->
+<!-- --------------------- Nav Bar ----------------- -->
+
+<div id="result_2">
+<script src="../JS/navbar.js"></script>
+<script type="text/javascript">nav_bar_function('industry_s2');</script>
+</div>
+
+<!-- --------------------- Nav Bar ----------------- -->
+
+
+
+<div id="content">
+
+<!-- ------------------------------------------------------------------Content in here------------------------------------------------------------------ -->
+
+
+<a id="retrospective"/>
+<h4>INDUSTRY S2</h4>
+
+<b>Sprint:</b> INDUSTRY S2</br>
+<b>Sprint Dates:</b> 04/06/2014 - 18/06/2014</br>
+<b>Servers:</b>Pulsar, Singularity, Multiplicity, Chaos </p>
+
+<b>Scrum Master:</b> Grant McKenna</br>
+<b>Attendees:</b>
+Alyn, Drew, Grant, Jesse, John, Laurie, Roman, Stewart, Tormod.
+</p>
+
+<b>Notes:</b> None
+</p>
+
+<a href="#" onclick="hideshow(external_issues)">
+<div class="expandable_content_header">External Issues</div>
+</a>
+<div id="external_issues" class="show"></p>
+<!-- ---------------------------- External Issues ----------------------------- -->
+
+<b>
+CCP
+</b></p>
+<ul>
+<li>CCP had two bank holidays meaning they were unavailable to answer queries delaying script progress.
+<li>The Mismatch_Cost error for Industry blocked scripts and caused delays.
+</ul>
+
+</p><b>
+Testing Servers
+</b></p>
+<ul>
+<li>The sprint started on Pulsar which is an unstable testing environment and caused issues with sphinx and forming fleets. 
+<li>The main server changed from Pulsar to Singularity mid sprint.
+<li>Server Downtime took time away from testers.
+</ul>
+
+
+<!-- ---------------------------- External Issues ----------------------------- -->
+</div>
+
+<a href="#" onclick="hideshow(good_practices)">
+<div class="expandable_content_header">Good Practices</div>
+</a>
+<div id="good_practices" class="show"></p>
+<!-- ---------------------------- Good Practices ----------------------------- -->
+
+<b>
+Information Sharing
+</b></p>
+<ul>
+<li>The team is making good use of the calendar and helping each other with script waits.
+<li>The team has implemented more script changes and started adding new test steps to increase coverage of new EVE functionality.
+</ul>
+
+</p><b>
+Sprint
+</b></p>
+<ul>
+<li>The team finished the sprint early despite holidays and interruptions.
+<li>The team has entered a high number of defects this sprint.
+</ul>
+
+</p><b>
+Testing Knowledge
+</b></p>
+<ul>
+<li>The team is improving their EVE knowledge and testers are taking ownership of their own script coverage.
+</ul>
+
+
+<!-- ---------------------------- Good Practices ----------------------------- -->
+</div>
+
+<a href="#" onclick="hideshow(team_concerns)">
+<div class="expandable_content_header">Internal Issues</div>
+</a>
+<div id="team_concerns" class="show"></p>
+<!-- ---------------------------- Internal Issues ----------------------------- -->
+
+<b>
+Information Sharing
+</b></p>
+<ul>
+<li>There are team concerns about how much information is shared about the sprint progress and how this affects testing times and tester motivation.
+</ul>
+
+</p><b>
+Scripts
+</b></p>
+<ul>
+<li>New scripts lack information meaning testers have to figure out the new intended functionality or contact CCP for confirmation.
+</ul>
+
+</p><b>
+Script changes
+</b></p>
+<ul>
+<li>Testers are unclear on which script changes need to go through the skype channel and which can be implemented immediately.
+<li>There are concerns about multiple testers trying to implement changes at the same time.
+</ul>
+
+</p><b>
+Scrum
+</b></p>
+<ul>
+<li>The team are concerned that the "Concerns within the team" section of the sprint retrospective may not be appropriately named potentially causing us miss talking about some relevant issues.
+</ul>
+
+</p><b>
+Sprint
+</b></p>
+<ul>
+<li>The team took on average an extra 4 hours per tester to complete the sprint. This can partly be accounted for by Pulsar, new industry features and several known issues.
+</ul>
+
+</p><b> 
+Testing equipment
+</b></p>
+<ul>
+<li>Grant had an issue with his 2nd HD not freeing up space when items were deleted. This caused will cause delays in the future if not fixed. 
+<li>Roman had issues with corrupt files on his PC. 
+<li>Drews PC is slow being close to minimum spec making it difficult to run several clients and carry out admin tasks. 
+<li>Many testers are struggling to run 3 clients simultaneously.
+</ul>
+
+
+
+
+<!-- ---------------------------- Team Concerns ----------------------------- -->
+</div>
+
+<a href="#" onclick="hideshow(action_points)">
+<div class="expandable_content_header">Action Points</div>
+</a>
+<div id="action_points" class="show"></p>
+<!-- ---------------------------- Action Points ----------------------------- -->
+
+<b>
+Information Sharing
+</b></p>
+<ul>
+<li>The team decided more information may be useful and suggested that the scrum master should give a rundown of how many scripts are Not Started/ In Progress by priority.
+</ul>
+ 
+ </p><b>
+Scripts
+</b></p>
+<ul>
+<li>Tormod will ask CCP if they can send us extra information when giving us new scripts such as a list of defects already affecting the script and more context of the intended functionality. 
+<li>Tormod will be disseminating information from the EVE dev blogs so the team has a reference of the intended functionality for the new scripts. 
+ </ul>
+ 
+</p><b>
+Script Changes
+</b></p>
+<ul>
+<li>Only outdated terminology, values and spelling errors that are confirmed by a CCP source can be immediately implement.
+<li>Only one script change should be posted and then confirmed in the script change channel at a time.
+<li>The change request document can be temporarily shared when there are a lot of script changes. Testers will make sure to claim cells for their changes saving before and after to minimize accidental overwrites. 
+</ul>
+
+</p><b>
+Scrum
+</b></p>
+<ul>
+<li>The "Concerns within the team" section will be renamed to "Internal Issue" as this is a broader term. 
+</ul>
+
+</p><b>
+Testing Equipment
+</b></p>
+<ul>
+<li>Drew could be given an additional PC for admin work. 
+<li>Roman has already been given a new PC to resolve his issue. 
+<li>Grant has already formatted his 2nd HD to resolve his issue. 
+<li>Tormod will ask about the possibility of laptop testing. 
+<li>Tormod will contact Dave about the feasibility of adding extra RAM to testers PCs.
+</ul>
+
+
+<!-- ---------------------------- Action Points ----------------------------- -->
+</div>
+
+<a href="#" onclick="hideshow(additional_comments)">
+<div class="expandable_content_header">Additional Comments</div>
+</a>
+<div id="additional_comments"class="show"></p>
+<!-- ---------------------------- Additional Comments ----------------------------- -->
+
+No additional comments.
+
+
+
+
+
+<!-- ---------------------------- Additional Comments ----------------------------- -->
+</div>
+<!-- ------------------------------------------------------------------Content in here------------------------------------------------------------------ -->
+
+
+
+
+</div>
+
+
+
+
+
+
+</body>
+
+
+</html>

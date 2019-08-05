@@ -1,0 +1,122 @@
+﻿<trivia>				
+	<item category="Facts">			
+		<question>	Many restrictions have been removed from the skill queue, but what restrictions remain for the moment for players with active accounts?	</question>
+	<answers>			
+		<answer>	50 Skills at a time, and a limit to of up to 10 years.	</answer>
+		<answer>	'Unlimited Skill Queue'	</answer>
+		<answer>	50 Skills at any one time, with no limit of time.	</answer>
+		<answer>	25 Skills at any one time, with a 5 year cap.	</answer>
+	</answers>			
+		<hint>	50	</hint>
+		<fact>	Strictly speaking the skill queue will have an installation window of 10 years. Further, the skill queue will remain limited to 50 entries in total for the time being. These limits are being maintained for safety as this significant change to the skill-training system goes live, and are not set in stone.	</fact>
+	</item>			
+				
+	<item category="Facts">			
+		<question>	How will the skill queue changes affect Trial Accounts?	</question>
+	<answers>			
+		<answer>	The previous skill queue restrictions will remain the same.	</answer>
+		<answer>	The trial accounts will be able to train beyond 24 hours.	</answer>
+		<answer>	The trial accounts will have a 10 at a time limit.	</answer>
+		<answer>	Trial accounts can add enough to match the duration of the trial period. 	</answer>
+	</answers>			
+		<hint>	Limited	</hint>
+		<fact>	Trial accounts will remain limited to the 24-hour window for inserting skills into the queue.	</fact>
+	</item>		
+	
+		<item category="Facts">			
+		<question>	All Datacores, Decryptors and the most commonly dropped loot in Data Site (Hacking) containers have had their volume dropped to what value? (Excludes Carbon and High-Tech goods)	</question>
+	<answers>			
+		<answer>	0.1 m3	</answer>
+		<answer>	0.5 m3	</answer>
+		<answer>	0.01 m3	</answer>
+		<answer>	1.0 m3	</answer>
+	</answers>			
+		<hint>	Number 1 is there	</hint>
+		<fact>	All Datacores, Decryptors and the most commonly dropped loot in Data Site (Hacking) containers have had their volume dropped to 0.1m3. (Carbon and High-Tech goods were dropped to 0.01m3)	</fact>
+	</item>	
+		
+		<item category="Facts">			
+		<question>	What new feature is being added to market functionality?	</question>
+	<answers>			
+		<answer>	The option to Multisell items.</answer>
+		<answer>	The option Multiplex.	</answer>
+		<answer>	3D previews for Apparel.	</answer>
+		<answer>	Instant selling of 'common' items without a Buy order.	</answer>
+	</answers>			
+		<hint>	Multi	</hint>
+		<fact>	Introducing the long anticipated ability to create multiple market sell orders at the same time!	</fact>
+	</item>	
+	
+		<item category="Facts">			
+		<question>	The majority of combat capitals will have a maximum jump range of what limit?	</question>
+	<answers>			
+		<answer>	5 LY	</answer>
+		<answer>	8 AU	</answer>
+		<answer>	10 LY	</answer>
+		<answer>	5 AU	</answer>
+	</answers>			
+		<hint>	5	</hint>
+		<fact>	All combat capitals have a maximum jump range (post-skills; see below) of 5 LY with a few exceptions	</fact>
+	</item>	
+	
+	<item category="Facts">			
+		<question>	What is jump fatigue?	</question>
+	<answers>			
+		<answer>	A restrictive time value accrued from using Jump Drive/Bridge/Portals.	</answer>
+		<answer>	A new restrictive  that limits Stargate jumps for titans.	</answer>
+		<answer>	When you are le tired after listening to House of Pain's classic.	</answer>
+		<answer>	The reason why supercarriers and titans can't jump to High-sec	</answer>
+	</answers>			
+		<hint>		</hint>
+		<fact> After each jump, pilots gain a jump cooldown timer which prevents them using a jump drive/jump bridge/jump portal again until this cooldown has expired.
+The length of the timer is dependent on the amount of fatigue present on the pilot when the jump is executed.</fact>
+	</item>	
+	
+	<item category="Facts">			
+		<question>	Which major change affects Carriers, dreadnoughts, supercarriers, titans and capital industrials?	</question>
+	<answers>			
+		<answer>	Ability to jump through Stargates.	</answer>
+		<answer>	Ability to enter High-Sec space.	</answer>
+		<answer>	Turret tracking halved, siege module tracking penalty removed. </answer>
+		<answer>	Reduced to 3 maximum locked targets, and base scan resolution reduced to 5	</answer>
+	</answers>			
+		<hint>	Ability to enter higher sec than before.	</hint>
+		<fact> Carriers, dreadnoughts, supercarriers, titans and capital industrials can now use stargates, provided they do not lead into a highsec system.</fact>
+	</item>	
+	
+	<item category="Facts">			
+		<question> Which Trial Account restriction has been removed?	</question>
+	<answers>			
+		<answer>	Restriction on sending and receiving ISK	</answer>
+		<answer>	Restriction on the number of contracts	</answer>
+		<answer>	Restriction on the skill queue	</answer>
+		<answer>	Restriction on No. of industry jobs	</answer>
+	</answers>			
+		<hint>	Is it Isk, Contracts or Industry?	</hint>
+		<fact>  </fact>
+	</item>	
+	
+		<item category="Facts">			
+		<question>	Which new UI element has been added to signify trial restrictions?	</question>
+	<answers>			
+		<answer>	An orange 'E', usually with a orange hatched background </answer>
+		<answer>	A red 'E', usually with a red hatched background	</answer>
+		<answer>	Restricted skills and ships are of lower opacity (e.g. 50% transparent)	</answer>
+		<answer>	A massive box telling trial accounts to get gud and sub	</answer>
+	</answers>			
+		<hint>	E	</hint>
+		<fact> Trial accounts will now see more information relating to their trial status in a number of places in the UI, typically represented with an orange E, with a orange hatched background</fact>
+	</item>	
+	
+		<item category="Facts">			
+		<question>	Which of these new features is being released in Phoebe?	</question>
+	<answers>			
+		<answer>	Bookmarks will appear in your sensor overlay	</answer>
+		<answer>	New character head gear, cybernetic arms and tights	</answer>
+		<answer>	Class 4 wormhole systems get a second static connection	</answer>
+		<answer>	New Overview setup sharing	</answer>
+	</answers>			
+		<hint>	In-space	</hint>
+		<fact> Personal and Corporation Locations, Cosmic signatures and anomalies, Landmarks and Agent objectives will be visible in the Sensor Overlay with Phoebe. The overaly results will also be visible in a compass like ring on the ship HUD.</fact>
+	</item>	
+</trivia>				
